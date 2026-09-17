@@ -287,6 +287,20 @@ footer{
 }
 footer b{color:#a9bce4;}
 
+.wa-float{
+  position:fixed;right:18px;bottom:18px;z-index:150;
+  width:58px;height:58px;border-radius:50%;background:#25D366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px rgba(37,211,102,0.45);
+  animation:wa-pulse 2.6s infinite;
+}
+.wa-float svg{width:28px;height:28px;fill:#fff;}
+@keyframes wa-pulse{
+  0%{box-shadow:0 10px 26px rgba(37,211,102,0.45), 0 0 0 0 rgba(37,211,102,0.5);}
+  70%{box-shadow:0 10px 26px rgba(37,211,102,0.45), 0 0 0 14px rgba(37,211,102,0);}
+  100%{box-shadow:0 10px 26px rgba(37,211,102,0.45), 0 0 0 0 rgba(37,211,102,0);}
+}
+
 /* utilities */
 .center{text-align:center;}
 .mt0{margin-top:0;}
@@ -717,6 +731,10 @@ footer b{color:#a9bce4;}
   Ingeniería · Seguridad · Calidad · Cumplimiento<br>
   © 2026 KVARETIE Energy Solutions. Todos los derechos reservados.
 </footer>
+
+<a aria-label="Escribir por WhatsApp" class="wa-float" href="https://wa.me/573016168670?text=Hola%2C%20vi%20el%20cat%C3%A1logo%20digital%20de%20KVARETIE%20Energy%20Solutions%20y%20quiero%20recibir%20informaci%C3%B3n%20sobre%20un%20proyecto%20el%C3%A9ctrico." target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.07L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.15c-1.6 0-3.1-.43-4.4-1.2l-.32-.19-3.03.79.81-2.96-.2-.31A8.15 8.15 0 1 1 20.15 12 8.16 8.16 0 0 1 12 20.15zm4.48-6.13c-.24-.12-1.43-.71-1.66-.79-.22-.08-.38-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.35-1.67-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.83-.2-.48-.4-.42-.55-.42-.14-.01-.3-.01-.46-.01s-.42.06-.64.3c-.22.24-.85.83-.85 2.02s.87 2.35.99 2.51c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.43-.58 1.63-1.15.2-.56.2-1.04.14-1.15-.06-.11-.22-.17-.46-.29z"/></svg>
+</a>
 
 </body>
 </html>
