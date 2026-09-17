@@ -304,6 +304,28 @@ footer b{color:#a9bce4;}
 /* utilities */
 .center{text-align:center;}
 .mt0{margin-top:0;}
+.ally-highlight{
+  border-radius:var(--radius);padding:32px 24px;text-align:center;
+  background:linear-gradient(160deg,#fff8e8 0%,#fff 65%);
+  border:2px solid var(--gold);box-shadow:var(--shadow-sm);
+  max-width:720px;margin:0 auto;
+}
+.ally-highlight .ally-icon{
+  width:52px;height:52px;border-radius:14px;margin:0 auto 14px;
+  background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;
+}
+.ally-highlight .ally-icon svg{width:26px;height:26px;}
+.ally-highlight h2{margin:8px 0 0;font-size:clamp(24px,6vw,32px);font-weight:900;color:var(--ink);}
+.ally-lead{margin:14px auto 0;max-width:520px;color:var(--gray);font-size:15.5px;line-height:1.6;}
+.ally-list{text-align:left;margin:20px auto 0;max-width:480px;}
+.ally-cta{
+  margin:34px auto 0;max-width:560px;background:rgba(240,165,0,0.08);
+  border:1.5px dashed var(--gold);border-radius:var(--radius-sm);padding:26px 22px;text-align:center;
+}
+.ally-cta-kicker{margin:0;color:var(--gold);font-weight:800;letter-spacing:.06em;font-size:12.5px;text-transform:uppercase;}
+.ally-cta h3{margin:8px 0 0;font-size:clamp(19px,4.6vw,23px);font-weight:900;color:#fff;}
+.ally-cta-desc{margin:10px auto 0;max-width:440px;color:#dbe6ff;font-size:14.5px;line-height:1.6;}
+.ally-cta .btn{margin-top:18px;}
 </style>
 </head>
 <body>
@@ -383,6 +405,23 @@ footer b{color:#a9bce4;}
       </div>
     </div>
     <p class="closing-quote">&ldquo;Soluciones seguras, eficientes y adaptadas a cada necesidad.&rdquo;</p>
+  </div>
+</section>
+
+<!-- ============ 02B. RED DE ALIANZA ============ -->
+<section class="sec">
+  <div class="container">
+    <div class="ally-highlight">
+      <div class="ally-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div>
+      <p class="kicker" style="color:var(--gold-dark)">Red de alianza</p>
+      <h2>También contamos con una Red de Aliados</h2>
+      <p class="ally-lead">Invitamos a electricistas, contratistas e ingenieros a unirse a nuestra Red de Aliados de KVARETIE.</p>
+      <ul class="svc-list ally-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Colaboración en proyectos y remisión de trabajos</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Respaldo técnico y trabajo en equipo entre profesionales del sector</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m20 6-11 11-5-5"/></svg>Crecimiento conjunto dentro de una red de confianza</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -722,6 +761,16 @@ footer b{color:#a9bce4;}
         <div class="ic ic-web"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/></svg></div>
         <div class="txt"><small>Sitio web</small><strong>Próximamente</strong></div>
       </div>
+    </div>
+
+    <div class="ally-cta">
+      <p class="ally-cta-kicker">¿Eres electricista, contratista o ingeniero?</p>
+      <h3>Únete a nuestra Red de Aliados</h3>
+      <p class="ally-cta-desc">Conecta tus servicios con KVARETIE: colaboración en proyectos, respaldo técnico y crecimiento conjunto dentro de una red de confianza.</p>
+      <a class="btn btn-gold" href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+        Quiero ser aliado
+      </a>
     </div>
   </div>
 </section>
