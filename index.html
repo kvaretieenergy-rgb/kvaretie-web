@@ -42,6 +42,8 @@
   --shadow-sm: 0 4px 14px rgba(10,26,58,0.10);
   --maxw: 1120px;
   --wa-green: #25D366;
+  --gold: #f0a500;
+  --gold-dark: #c98700;
 }
 
 *{box-sizing:border-box;}
@@ -98,6 +100,8 @@ section{padding:64px 0;scroll-margin-top:70px;}
 .btn-primary{background:var(--wa-green);color:#fff;box-shadow:0 8px 20px rgba(37,211,102,0.35);}
 .btn-primary:hover{box-shadow:0 10px 26px rgba(37,211,102,0.45);}
 .btn-outline{background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(255,255,255,0.55);}
+.btn-gold{background:var(--gold);color:var(--navy);box-shadow:0 8px 20px rgba(240,165,0,0.4);}
+.btn-gold:hover{background:var(--gold-dark);color:#fff;}
 .btn-outline:hover{background:rgba(255,255,255,0.16);}
 .btn-outline-navy{background:transparent;color:var(--navy);border:1.5px solid var(--navy);}
 .btn-outline-navy:hover{background:var(--navy);color:#fff;}
@@ -264,6 +268,17 @@ section{padding:64px 0;scroll-margin-top:70px;}
   background:#fff;border:1px solid var(--silver-2);border-radius:var(--radius);
   box-shadow:var(--shadow-sm);padding:18px 18px 20px;
   transition:transform .2s ease, box-shadow .2s ease;
+}
+.service-card.featured{
+  background:linear-gradient(160deg,#fff7e8 0%,#fdecc8 100%);
+  border:1.5px solid var(--gold);
+  box-shadow:0 14px 32px rgba(240,165,0,0.22);
+}
+.service-card.featured .service-icon{
+  background:var(--gold);color:#fff;
+}
+.service-card.featured .service-num{
+  color:var(--gold-dark);
 }
 .service-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);}
 .service-top{display:flex;align-items:flex-start;gap:12px;}
@@ -593,11 +608,28 @@ body{background:#e7ebf3;}
 <p class="section-sub">Ingeniería, instalación, seguridad electrónica y cumplimiento normativo en un solo equipo técnico.</p>
 </div>
 <div class="services-grid">
+<article class="service-card reveal featured">
+<div class="service-top">
+<span class="service-icon"><svg height="22" width="22"><use href="#icon-grid"></use></svg></span>
+<div>
+<span class="service-num">01</span>
+<h3>Red de Aliados</h3>
+</div>
+</div>
+<div class="service-body">
+<p>Invitamos a electricistas, contratistas e ingenieros a unirse a nuestra Red de Aliados de KVARETIE.</p>
+<ul class="service-list">
+<li><svg><use href="#icon-check"></use></svg>Colaboración en proyectos y remisión de trabajos</li>
+<li><svg><use href="#icon-check"></use></svg>Respaldo técnico y trabajo en equipo entre profesionales del sector</li>
+<li><svg><use href="#icon-check"></use></svg>Crecimiento conjunto dentro de una red de confianza</li>
+</ul>
+</div>
+</article>
 <article class="service-card reveal">
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-zap"></use></svg></span>
 <div>
-<span class="service-num">01</span>
+<span class="service-num">02</span>
 <h3>Diseño e Ingeniería Eléctrica</h3>
 </div>
 </div>
@@ -614,7 +646,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-plug"></use></svg></span>
 <div>
-<span class="service-num">02</span>
+<span class="service-num">03</span>
 <h3>Instalaciones Eléctricas y Acometidas</h3>
 </div>
 </div>
@@ -631,7 +663,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-grid"></use></svg></span>
 <div>
-<span class="service-num">03</span>
+<span class="service-num">04</span>
 <h3>Tableros, Gabinetes e Infraestructura</h3>
 </div>
 </div>
@@ -648,7 +680,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-zap"></use></svg></span>
 <div>
-<span class="service-num">04</span>
+<span class="service-num">05</span>
 <h3>Transformadores y Media Tensión</h3>
 </div>
 </div>
@@ -665,7 +697,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-shield"></use></svg></span>
 <div>
-<span class="service-num">05</span>
+<span class="service-num">06</span>
 <h3>Puesta a Tierra y Apantallamiento</h3>
 </div>
 </div>
@@ -682,7 +714,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-sun"></use></svg></span>
 <div>
-<span class="service-num">06</span>
+<span class="service-num">07</span>
 <h3>Energía Solar</h3>
 </div>
 </div>
@@ -699,7 +731,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-camera"></use></svg></span>
 <div>
-<span class="service-num">07</span>
+<span class="service-num">08</span>
 <h3>Cámaras, Seguridad y Alarmas</h3>
 </div>
 </div>
@@ -716,7 +748,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-phone"></use></svg></span>
 <div>
-<span class="service-num">08</span>
+<span class="service-num">09</span>
 <h3>Citofonía y Control de Acceso</h3>
 </div>
 </div>
@@ -733,7 +765,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-wifi"></use></svg></span>
 <div>
-<span class="service-num">09</span>
+<span class="service-num">10</span>
 <h3>Redes, Internet y Telefonía IP</h3>
 </div>
 </div>
@@ -750,7 +782,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-shield"></use></svg></span>
 <div>
-<span class="service-num">10</span>
+<span class="service-num">11</span>
 <h3>RETIE y RETILAP</h3>
 </div>
 </div>
@@ -767,7 +799,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-clipboard"></use></svg></span>
 <div>
-<span class="service-num">11</span>
+<span class="service-num">12</span>
 <h3>CONTE</h3>
 </div>
 </div>
@@ -784,7 +816,7 @@ body{background:#e7ebf3;}
 <div class="service-top">
 <span class="service-icon"><svg height="22" width="22"><use href="#icon-wrench"></use></svg></span>
 <div>
-<span class="service-num">12</span>
+<span class="service-num">13</span>
 <h3>Acompañamiento Técnico y Trámites</h3>
 </div>
 </div>
@@ -794,23 +826,6 @@ body{background:#e7ebf3;}
 <li><svg><use href="#icon-check"></use></svg>Planos eléctricos y diagramas unifilares</li>
 <li><svg><use href="#icon-check"></use></svg>Preparación y radicación de documentación técnica</li>
 <li><svg><use href="#icon-check"></use></svg>Seguimiento ante el Operador de Red (OR) para la conexión del servicio</li>
-</ul>
-</div>
-</article>
-<article class="service-card reveal">
-<div class="service-top">
-<span class="service-icon"><svg height="22" width="22"><use href="#icon-grid"></use></svg></span>
-<div>
-<span class="service-num">13</span>
-<h3>Red de Aliados</h3>
-</div>
-</div>
-<div class="service-body">
-<p>Invitamos a electricistas, contratistas e ingenieros a unirse a nuestra Red de Aliados de KVARETIE.</p>
-<ul class="service-list">
-<li><svg><use href="#icon-check"></use></svg>Colaboración en proyectos y remisión de trabajos</li>
-<li><svg><use href="#icon-check"></use></svg>Respaldo técnico y trabajo en equipo entre profesionales del sector</li>
-<li><svg><use href="#icon-check"></use></svg>Crecimiento conjunto dentro de una red de confianza</li>
 </ul>
 </div>
 </article>
@@ -1013,7 +1028,7 @@ body{background:#e7ebf3;}
 <div class="eyebrow">Únete a nuestra red de aliados</div>
 <h2>Conecta tus servicios con KVARETIE y haz parte de nuestra red de aliados estratégicos.</h2>
 <div class="btn-row">
-<a class="btn btn-outline" href="#">
+<a class="btn btn-gold" href="#">
 <svg height="17" width="17"><use href="#icon-grid"></use></svg> Quiero ser aliado
         </a>
 </div>
