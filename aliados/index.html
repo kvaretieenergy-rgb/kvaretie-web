@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Red de Aliados | KVARETIE Energy Solutions</title>
+<meta content="Únete a la Red de Aliados de KVARETIE Energy Solutions: profesionales, contratistas, empresas y proveedores que colaboran en proyectos eléctricos." name="description"/>
+<meta content="#0a1a3a" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="Red de Aliados | KVARETIE Energy Solutions" property="og:title"/>
+<meta content="Conectamos profesionales, empresas, contratistas y proveedores para generar nuevas oportunidades y desarrollar proyectos de manera colaborativa." property="og:description"/>
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://kvaretieenergy-rgb.github.io/kvaretie-web/presentacion/assets/og-cover.png" property="og:image"/>
+<meta content="https://kvaretieenergy-rgb.github.io/kvaretie-web/aliados/" property="og:url"/>
+<link href="https://kvaretieenergy-rgb.github.io/kvaretie-web/aliados/" rel="canonical"/>
+<link href="../presentacion/favicon.png" rel="icon" type="image/png"/>
+<link href="../presentacion/assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --navy: #0a1a3a;
+  --navy-2: #0f2350;
+  --navy-3: #12295e;
+  --blue: #1f6feb;
+  --blue-2: #2f7dfb;
+  --blue-light: #5fa2ff;
+  --silver: #eef1f6;
+  --silver-2: #dde3ec;
+  --ink: #10192e;
+  --gray: #5b6577;
+  --white: #ffffff;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --shadow: 0 10px 30px rgba(10,26,58,0.12);
+  --shadow-sm: 0 4px 14px rgba(10,26,58,0.10);
+  --maxw: 1120px;
+  --formw: 720px;
+  --wa-green: #25D366;
+  --gold: #f0a500;
+  --gold-dark: #c98700;
+  --danger: #d92d2d;
+  --danger-bg: #fdecec;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  color:var(--ink);
+  background:var(--white);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,h4,p{margin:0;}
+ul{margin:0;padding:0;list-style:none;}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;font-weight:700;letter-spacing:1.6px;
+  color:var(--blue-light);text-transform:uppercase;
+  margin-bottom:10px;
+}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--blue-light);display:inline-block;border-radius:2px;}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:15px 26px;border-radius:50px;font-weight:700;font-size:15px;
+  border:none;transition:transform .15s ease, box-shadow .15s ease, background .15s ease, opacity .15s ease;
+  white-space:nowrap;
+}
+.btn:active{transform:scale(0.97);}
+.btn-primary{background:var(--wa-green);color:#fff;box-shadow:0 8px 20px rgba(37,211,102,0.35);}
+.btn-primary:hover{box-shadow:0 10px 26px rgba(37,211,102,0.45);}
+.btn-primary:disabled{opacity:0.65;cursor:not-allowed;box-shadow:none;transform:none;}
+.btn-outline{background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(255,255,255,0.55);}
+.btn-outline:hover{background:rgba(255,255,255,0.16);}
+.btn-gold{background:var(--gold);color:var(--navy);box-shadow:0 8px 20px rgba(240,165,0,0.4);}
+.btn-gold:hover{background:var(--gold-dark);color:#fff;}
+.btn-block{width:100%;}
+.btn-row{display:flex;flex-wrap:wrap;gap:14px;}
+.btn-row.center{justify-content:center;}
+
+/* ---------- Header ---------- */
+.site-header{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  background:rgba(10,26,58,0.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.site-header .container{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:12px;padding-bottom:12px;
+}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;}
+.brand img{height:34px;width:34px;object-fit:contain;border-radius:8px;padding:3px;}
+.brand-name{font-weight:800;font-size:15px;letter-spacing:0.3px;line-height:1.1;}
+.brand-name small{display:block;font-weight:500;font-size:10.5px;letter-spacing:1.1px;color:#9fb2df;text-transform:uppercase;}
+.back-home{
+  display:inline-flex;align-items:center;gap:6px;color:#cfd9f2;font-size:13.5px;font-weight:600;
+  padding:8px 14px;border-radius:50px;border:1px solid rgba(255,255,255,0.25);
+}
+.back-home:hover{background:rgba(255,255,255,0.08);color:#fff;}
+.back-home svg{width:15px;height:15px;transform:rotate(180deg);}
+
+/* ---------- Hero ---------- */
+.aliados-hero{
+  background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 55%,var(--navy-3) 100%);
+  color:#fff;padding:126px 0 56px;text-align:center;
+}
+.aliados-hero h1{
+  font-size:clamp(26px,4.4vw,40px);font-weight:800;line-height:1.2;letter-spacing:-0.3px;
+  max-width:760px;margin:0 auto;
+}
+.aliados-hero .lead{
+  max-width:620px;margin:18px auto 0;font-size:16px;line-height:1.65;color:#c9d4ee;
+}
+.aliados-hero .lead + .lead{margin-top:10px;}
+
+/* ---------- Form section ---------- */
+.form-section{background:var(--silver);padding:44px 0 60px;}
+.form-card{
+  max-width:var(--formw);margin:0 auto;background:#fff;border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:28px 22px;
+}
+@media (min-width:640px){.form-card{padding:40px 44px;}}
+
+.field{margin-bottom:20px;}
+.field label{display:block;font-weight:700;font-size:14px;color:var(--navy);margin-bottom:7px;}
+.field label .opt{font-weight:500;color:var(--gray);text-transform:none;letter-spacing:0;}
+.field .req{color:var(--danger);}
+.help-text{font-size:12.5px;color:var(--gray);margin-top:6px;line-height:1.5;}
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="tel"],
+.field input[type="url"],
+.field select,
+.field textarea{
+  width:100%;padding:13px 14px;border-radius:var(--radius-sm);border:1.5px solid var(--silver-2);
+  font-family:inherit;font-size:15px;color:var(--ink);background:#fff;transition:border-color .15s ease;
+}
+.field textarea{resize:vertical;min-height:92px;}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--blue-2);}
+.field.has-error input,.field.has-error select,.field.has-error textarea{border-color:var(--danger);background:var(--danger-bg);}
+.field-error{display:none;color:var(--danger);font-size:12.5px;font-weight:600;margin-top:6px;}
+.field.has-error .field-error{display:block;}
+
+.check-group{display:flex;flex-direction:column;gap:10px;}
+.check-option{
+  display:flex;align-items:flex-start;gap:10px;font-size:14.5px;line-height:1.45;color:var(--ink);
+  padding:10px 12px;border:1.5px solid var(--silver-2);border-radius:var(--radius-sm);cursor:pointer;
+}
+.check-option:hover{border-color:var(--blue-light);}
+.check-option input{margin-top:2px;width:18px;height:18px;flex:0 0 auto;accent-color:var(--blue-2);}
+
+.authorize{
+  display:flex;align-items:flex-start;gap:12px;background:var(--silver);border-radius:var(--radius-sm);
+  padding:16px;margin:26px 0 24px;font-size:13.5px;line-height:1.55;color:var(--gray);
+}
+.authorize input{margin-top:3px;width:19px;height:19px;flex:0 0 auto;accent-color:var(--blue-2);}
+
+.hp-field{position:absolute;left:-9999px;top:-9999px;opacity:0;height:0;width:0;overflow:hidden;}
+
+.form-msg{
+  display:none;border-radius:var(--radius-sm);padding:16px 18px;margin-bottom:22px;font-size:14px;line-height:1.55;
+}
+.form-msg.show{display:block;}
+.form-msg.error{background:var(--danger-bg);color:#8a1f1f;border:1.5px solid #f3b9b9;}
+.form-msg.error .btn{margin-top:12px;}
+
+#successMessage{display:none;max-width:var(--formw);margin:0 auto;background:#fff;border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:44px 26px;text-align:center;}
+#successMessage.show{display:block;}
+#successMessage .check-badge{
+  width:64px;height:64px;border-radius:50%;background:rgba(37,211,102,0.12);color:var(--wa-green);
+  display:flex;align-items:center;justify-content:center;margin:0 auto 18px;
+}
+#successMessage .check-badge svg{width:32px;height:32px;}
+#successMessage h2{font-size:21px;font-weight:800;color:var(--navy);margin-bottom:12px;}
+#successMessage p{font-size:15px;color:var(--gray);line-height:1.6;max-width:480px;margin:0 auto;}
+#successMessage p + p{margin-top:10px;}
+
+/* ---------- WhatsApp secondary ---------- */
+.aliados-secondary{background:#fff;padding:8px 0 64px;text-align:center;}
+.aliados-secondary .inner{
+  max-width:560px;margin:0 auto;background:var(--navy);border-radius:var(--radius);
+  padding:34px 26px;color:#fff;
+}
+.aliados-secondary .kicker{font-size:13px;font-weight:700;letter-spacing:0.4px;color:#9fb2df;text-transform:uppercase;margin-bottom:8px;}
+.aliados-secondary h3{font-size:19px;font-weight:800;margin-bottom:10px;}
+.aliados-secondary p{font-size:14.5px;color:#c9d4ee;line-height:1.55;margin-bottom:20px;}
+
+/* ---------- Footer ---------- */
+.aliados-footer{background:var(--navy-2);color:#9fb2df;padding:26px 0;text-align:center;font-size:12.5px;}
+.aliados-footer a{color:#fff;font-weight:600;}
+.aliados-footer a:hover{text-decoration:underline;}
+
+@media (max-width:640px){
+  .aliados-hero{padding:112px 0 44px;}
+  .form-section{padding:34px 0 48px;}
+  .form-card{padding:24px 18px;}
+  .btn-block-mobile{width:100%;}
+  .site-header .brand-name{font-size:13.5px;}
+  .back-home span{display:none;}
+  .back-home{padding:9px 11px;}
+}
+</style>
+</head>
+<body>
+
+<svg style="display:none">
+<symbol fill="none" id="icon-check" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></symbol>
+<symbol id="icon-whatsapp" viewbox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.1.62 4.05 1.68 5.68L2 22l4.59-1.51a9.87 9.87 0 0 0 5.45 1.6h.005c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.06h-.004a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.12 1.02.99-3.02-.2-.31a8.18 8.18 0 0 1-1.26-4.39c0-4.53 3.7-8.22 8.24-8.22a8.2 8.2 0 0 1 5.83 2.41 8.15 8.15 0 0 1 2.41 5.81c0 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.16 0-.43.06-.66.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.02 2.57.12.16 1.75 2.67 4.25 3.74.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.23-.17-.48-.29z"></path></symbol>
+<symbol fill="none" id="icon-arrow-right" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></symbol>
+</svg>
+
+<header class="site-header">
+<div class="container">
+<a class="brand" href="../index.html">
+<img alt="Logo KVARETIE Energy Solutions" loading="eager" src="../images/logo-kva-square.png"/>
+<span class="brand-name">KVARETIE<small>Energy Solutions</small></span>
+</a>
+<a class="back-home" href="../index.html#aliados">
+<svg><use href="#icon-arrow-right"></use></svg>
+<span>Volver al inicio</span>
+</a>
+</div>
+</header>
+
+<main>
+<section class="aliados-hero">
+<div class="container">
+<div class="eyebrow" style="justify-content:center">Red de aliados</div>
+<h1>ÚNETE A NUESTRA RED DE ALIADOS</h1>
+<p class="lead">Conectamos profesionales, empresas, contratistas y proveedores para generar nuevas oportunidades y desarrollar proyectos de manera colaborativa.</p>
+<p class="lead">Déjanos tus datos y cuéntanos cómo podríamos trabajar juntos.</p>
+</div>
+</section>
+
+<section class="form-section">
+<div class="container">
+
+<div class="form-card" id="formCard">
+
+<div class="form-msg error" id="formError">
+<strong>No pudimos enviar tu solicitud en este momento.</strong> Por favor inténtalo nuevamente o comunícate con uno de nuestros asesores por WhatsApp.
+<div class="btn-row">
+<a class="btn btn-gold" href="https://wa.me/573016168670?text=Hola%2C%20vi%20la%20informaci%C3%B3n%20sobre%20la%20Red%20de%20Aliados%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." rel="noopener" target="_blank">
+<svg height="17" width="17"><use href="#icon-whatsapp"></use></svg> Comunícate con un asesor
+</a>
+</div>
+</div>
+
+<form id="aliadosForm" novalidate>
+
+<input autocomplete="off" class="hp-field" name="_honey" tabindex="-1" type="text"/>
+
+<div class="field" data-field="nombre_completo">
+<label for="f-nombre">Nombre completo <span class="req">*</span></label>
+<input id="f-nombre" name="nombre_completo" type="text"/>
+<div class="field-error">Por favor ingresa tu nombre completo.</div>
+</div>
+
+<div class="field" data-field="empresa">
+<label for="f-empresa">Empresa / Emprendimiento <span class="opt">(opcional)</span></label>
+<input id="f-empresa" name="empresa" type="text"/>
+<div class="help-text">Si trabajas de manera independiente, puedes dejar este campo vacío.</div>
+</div>
+
+<div class="field" data-field="tipo_aliado">
+<label for="f-tipo">Tipo de aliado <span class="req">*</span></label>
+<select id="f-tipo" name="tipo_aliado">
+<option value="">Selecciona una opción</option>
+<option>Profesional independiente</option>
+<option>Técnico / electricista</option>
+<option>Contratista</option>
+<option>Empresa de ingeniería</option>
+<option>Proveedor de materiales</option>
+<option>Arquitectura / construcción</option>
+<option>Energía solar</option>
+<option>Seguridad electrónica</option>
+<option>Automatización / domótica</option>
+<option>Ascensores</option>
+<option>Otro</option>
+</select>
+<div class="field-error">Por favor selecciona un tipo de aliado.</div>
+</div>
+
+<div class="field" data-field="especialidad">
+<label for="f-especialidad">Especialidad o servicios que ofrece <span class="req">*</span></label>
+<input id="f-especialidad" name="especialidad" placeholder="Ej: instalaciones eléctricas, cámaras de seguridad, energía solar..." type="text"/>
+<div class="field-error">Cuéntanos qué especialidad o servicios ofreces.</div>
+</div>
+
+<div class="field" data-field="ciudad">
+<label for="f-ciudad">Ciudad / Municipio <span class="req">*</span></label>
+<input id="f-ciudad" name="ciudad" type="text"/>
+<div class="field-error">Por favor ingresa tu ciudad o municipio.</div>
+</div>
+
+<div class="field" data-field="cobertura">
+<label for="f-cobertura">Cobertura <span class="opt">(opcional)</span></label>
+<input id="f-cobertura" name="cobertura" type="text"/>
+<div class="help-text">¿En qué ciudades o municipios puedes prestar tus servicios?</div>
+</div>
+
+<div class="field" data-field="whatsapp">
+<label for="f-whatsapp">WhatsApp <span class="req">*</span></label>
+<input id="f-whatsapp" inputmode="tel" name="whatsapp" placeholder="Ej: 3001234567" type="tel"/>
+<div class="field-error">Por favor ingresa un número de WhatsApp válido.</div>
+</div>
+
+<div class="field" data-field="correo">
+<label for="f-correo">Correo electrónico <span class="req">*</span></label>
+<input id="f-correo" name="correo" type="email"/>
+<div class="field-error">Por favor ingresa un correo electrónico válido.</div>
+</div>
+
+<div class="field" data-field="web_social">
+<label for="f-web">Página web / Red social / Portafolio <span class="opt">(opcional)</span></label>
+<input id="f-web" name="web_social" placeholder="https://..." type="text"/>
+</div>
+
+<div class="field" data-field="colaboracion">
+<label>¿Cómo te gustaría trabajar con KVARETIE? <span class="req">*</span></label>
+<div class="check-group">
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Recibir oportunidades o referidos"/> Recibir oportunidades o referidos</label>
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Referir clientes a KVARETIE"/> Referir clientes a KVARETIE</label>
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Ejecutar proyectos conjuntamente"/> Ejecutar proyectos conjuntamente</label>
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Ser proveedor"/> Ser proveedor</label>
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Participar como contratista"/> Participar como contratista</label>
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Crear una alianza comercial"/> Crear una alianza comercial</label>
+<label class="check-option"><input name="colaboracion" type="checkbox" value="Otro"/> Otro</label>
+</div>
+<div class="field-error">Selecciona al menos una opción.</div>
+</div>
+
+<div class="field" data-field="presentacion">
+<label for="f-presentacion">Cuéntanos sobre ti o tu empresa <span class="opt">(opcional)</span></label>
+<textarea id="f-presentacion" name="presentacion"></textarea>
+<div class="help-text">Cuéntanos brevemente a qué te dedicas, tu experiencia y cómo consideras que podríamos trabajar juntos.</div>
+</div>
+
+<div class="field" data-field="matricula">
+<label for="f-matricula">Matrícula / Licencia / Acreditación <span class="opt">(opcional)</span></label>
+<input id="f-matricula" name="matricula" type="text"/>
+<div class="help-text">Solo si aplica a tu actividad.</div>
+</div>
+
+<div class="field" data-field="portafolio">
+<label for="f-portafolio">Portafolio o trabajos realizados <span class="opt">(opcional)</span></label>
+<input id="f-portafolio" name="portafolio" placeholder="https://..." type="text"/>
+</div>
+
+<div class="field" data-field="mensaje_adicional">
+<label for="f-mensaje">Mensaje adicional <span class="opt">(opcional)</span></label>
+<textarea id="f-mensaje" name="mensaje_adicional"></textarea>
+</div>
+
+<div class="field authorize-field" data-field="autorizacion">
+<label class="authorize">
+<input id="f-autorizacion" name="autorizacion" type="checkbox"/>
+<span>Autorizo a KVARETIE Energy Solutions a utilizar la información suministrada para evaluar posibles oportunidades de colaboración y contactarme con relación a la Red de Aliados.</span>
+</label>
+<div class="field-error">Debes autorizar el uso de tus datos para poder enviar la solicitud.</div>
+</div>
+
+<button class="btn btn-primary btn-block" id="submitBtn" type="submit">
+<svg height="18" width="18"><use href="#icon-check"></use></svg>
+<span id="submitBtnText">Enviar solicitud de alianza</span>
+</button>
+
+</form>
+</div>
+
+<div id="successMessage">
+<div class="check-badge"><svg><use href="#icon-check"></use></svg></div>
+<h2>¡Gracias por tu interés en formar parte de nuestra Red de Aliados!</h2>
+<p>Hemos recibido tu información correctamente.</p>
+<p>Nuestro equipo revisará tu solicitud y, si encontramos una oportunidad de colaboración, nos pondremos en contacto contigo.</p>
+</div>
+
+</div>
+</section>
+
+<section class="aliados-secondary">
+<div class="container">
+<div class="inner">
+<div class="kicker">¿Tienes dudas sobre nuestra Red de Aliados?</div>
+<h3>Habla con nuestro equipo y recibe más información.</h3>
+<p>Escríbenos directamente por WhatsApp y te ayudamos con cualquier duda sobre el proceso de alianza.</p>
+<div class="btn-row center">
+<a class="btn btn-outline" href="https://wa.me/573016168670?text=Hola%2C%20vi%20la%20informaci%C3%B3n%20sobre%20la%20Red%20de%20Aliados%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." rel="noopener" target="_blank">
+<svg height="17" width="17"><use href="#icon-whatsapp"></use></svg> Comunícate con un asesor
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="aliados-footer">
+<div class="container">
+KVARETIE Energy Solutions &middot; Red de Aliados &middot; <a href="../index.html">Volver al inicio</a>
+</div>
+</footer>
+
+<script>
+(function(){
+  var form = document.getElementById('aliadosForm');
+  var formCard = document.getElementById('formCard');
+  var submitBtn = document.getElementById('submitBtn');
+  var submitBtnText = document.getElementById('submitBtnText');
+  var successBox = document.getElementById('successMessage');
+  var formError = document.getElementById('formError');
+  var isSubmitting = false;
+
+  var ENDPOINT = 'https://formsubmit.co/ajax/kvaretie.energy@gmail.com';
+
+  function clearErrors(){
+    var fields = form.querySelectorAll('.field.has-error');
+    fields.forEach(function(f){ f.classList.remove('has-error'); });
+  }
+
+  function markError(name){
+    var field = form.querySelector('.field[data-field="' + name + '"]');
+    if (field) field.classList.add('has-error');
+    return field;
+  }
+
+  function isValidEmail(v){
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+  }
+  function isValidPhone(v){
+    var digits = v.replace(/[^0-9]/g, '');
+    return digits.length >= 7;
+  }
+
+  function validate(){
+    var errors = [];
+    var val = function(name){
+      var el = form.elements[name];
+      return el ? el.value.trim() : '';
+    };
+
+    if (!val('nombre_completo')) errors.push('nombre_completo');
+    if (!val('tipo_aliado')) errors.push('tipo_aliado');
+    if (!val('especialidad')) errors.push('especialidad');
+    if (!val('ciudad')) errors.push('ciudad');
+
+    var wa = val('whatsapp');
+    if (!wa || !isValidPhone(wa)) errors.push('whatsapp');
+
+    var correo = val('correo');
+    if (!correo || !isValidEmail(correo)) errors.push('correo');
+
+    var colaboracion = form.querySelectorAll('input[name="colaboracion"]:checked');
+    if (colaboracion.length === 0) errors.push('colaboracion');
+
+    if (!form.elements['autorizacion'].checked) errors.push('autorizacion');
+
+    return errors;
+  }
+
+  function buildPayload(){
+    var val = function(name){
+      var el = form.elements[name];
+      return el ? el.value.trim() : '';
+    };
+    var colaboracion = Array.from(form.querySelectorAll('input[name="colaboracion"]:checked')).map(function(el){ return el.value; });
+    var now = new Date().toLocaleString('es-CO', { dateStyle: 'long', timeStyle: 'short', timeZone: 'America/Bogota' });
+
+    return {
+      _subject: 'Nueva solicitud — Red de Aliados KVARETIE',
+      _template: 'table',
+      _captcha: 'false',
+      _honey: form.elements['_honey'].value,
+      _replyto: val('correo'),
+      'NOMBRE': val('nombre_completo'),
+      'EMPRESA': val('empresa') || '—',
+      'TIPO DE ALIADO': val('tipo_aliado'),
+      'ESPECIALIDAD': val('especialidad'),
+      'CIUDAD': val('ciudad'),
+      'COBERTURA': val('cobertura') || '—',
+      'WHATSAPP': val('whatsapp'),
+      'CORREO': val('correo'),
+      'WEB / RED SOCIAL / PORTAFOLIO': val('web_social') || '—',
+      'TIPO DE COLABORACIÓN': colaboracion.length ? colaboracion.join(', ') : '—',
+      'PRESENTACIÓN': val('presentacion') || '—',
+      'MATRÍCULA / ACREDITACIÓN': val('matricula') || '—',
+      'PORTAFOLIO': val('portafolio') || '—',
+      'MENSAJE': val('mensaje_adicional') || '—',
+      'AUTORIZACIÓN': form.elements['autorizacion'].checked ? 'Aceptada' : 'No aceptada',
+      'FECHA': now
+    };
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (isSubmitting) return;
+
+    clearErrors();
+    formError.classList.remove('show');
+
+    // Honeypot: if filled, silently drop (looks like a bot)
+    if (form.elements['_honey'].value) return;
+
+    var errors = validate();
+    if (errors.length) {
+      var firstField = null;
+      errors.forEach(function(name){
+        var f = markError(name);
+        if (!firstField) firstField = f;
+      });
+      if (firstField) firstField.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    isSubmitting = true;
+    submitBtn.disabled = true;
+    var originalText = submitBtnText.textContent;
+    submitBtnText.textContent = 'Enviando...';
+
+    var payload = buildPayload();
+
+    fetch(ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function(resp){
+      return resp.json().catch(function(){ return null; }).then(function(data){
+        return { ok: resp.ok, data: data };
+      });
+    }).then(function(result){
+      if (result.ok && result.data && String(result.data.success) === 'true') {
+        formCard.style.display = 'none';
+        successBox.classList.add('show');
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        formError.classList.add('show');
+        formError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }).catch(function(){
+      formError.classList.add('show');
+      formError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }).finally(function(){
+      isSubmitting = false;
+      submitBtn.disabled = false;
+      submitBtnText.textContent = originalText;
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
