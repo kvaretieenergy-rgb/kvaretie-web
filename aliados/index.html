@@ -101,11 +101,10 @@ ul{margin:0;padding:0;list-style:none;}
 .brand-name{font-weight:800;font-size:15px;letter-spacing:0.3px;line-height:1.1;}
 .brand-name small{display:block;font-weight:500;font-size:10.5px;letter-spacing:1.1px;color:#9fb2df;text-transform:uppercase;}
 .back-home{
-  display:inline-flex;align-items:center;gap:6px;color:#cfd9f2;font-size:13.5px;font-weight:600;
-  padding:8px 14px;border-radius:50px;border:1px solid rgba(255,255,255,0.25);
+  display:inline-flex;align-items:center;gap:5px;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.2px;
+  padding:6px 12px;border-radius:999px;border:1.5px solid #f0a500;background:rgba(255,255,255,0.04);white-space:nowrap;text-decoration:none;
 }
-.back-home:hover{background:rgba(255,255,255,0.08);color:#fff;}
-.back-home svg{width:15px;height:15px;transform:rotate(180deg);}
+.back-home:hover{background:rgba(255,255,255,0.12);color:#fff;}
 
 /* ---------- Hero ---------- */
 .aliados-hero{
@@ -248,8 +247,7 @@ ul{margin:0;padding:0;list-style:none;}
   .form-card{padding:24px 18px;}
   .btn-block-mobile{width:100%;}
   .site-header .brand-name{font-size:13.5px;}
-  .back-home span{display:none;}
-  .back-home{padding:9px 11px;}
+  .back-home{font-size:9.5px;padding:6px 10px;gap:4px;}
 }
 </style>
 </head>
@@ -274,9 +272,8 @@ ul{margin:0;padding:0;list-style:none;}
 <img alt="Logo KVARETIE Energy Solutions" loading="eager" src="../images/logo-kva-square.png"/>
 <span class="brand-name">KVARETIE<small>Energy Solutions</small></span>
 </a>
-<a class="back-home" href="../index.html#aliados">
-<svg><use href="#icon-arrow-right"></use></svg>
-<span>Volver al inicio</span>
+<a class="back-home kva-back-dynamic" href="../presentacion/" aria-label="Volver a página anterior">
+<span>← VOLVER A PÁGINA ANTERIOR</span>
 </a>
 </div>
 </header>
@@ -518,7 +515,7 @@ ul{margin:0;padding:0;list-style:none;}
 
 <footer class="aliados-footer">
 <div class="container">
-KVARETIE Energy Solutions &middot; Red de Aliados &middot; <a href="../index.html">Volver al inicio</a>
+KVARETIE Energy Solutions &middot; Red de Aliados &middot; <a class="kva-back-dynamic" href="../presentacion/">← Volver a página anterior</a>
 </div>
 </footer>
 
@@ -668,6 +665,7 @@ KVARETIE Energy Solutions &middot; Red de Aliados &middot; <a href="../index.htm
   });
 })();
 </script>
+<script>(function(){try{var p=new URLSearchParams(location.search);var dest=(p.get('from')==='brochure')?'../brochure/':'../presentacion/';document.querySelectorAll('.kva-back-dynamic').forEach(function(a){a.setAttribute('href',dest);});}catch(e){}})();</script>
 
 </body>
 </html>
