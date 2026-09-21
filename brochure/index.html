@@ -509,7 +509,10 @@ body{background:#e7ebf3;}
 .kva-return:focus-visible{outline:2px solid #f7c759;outline-offset:3px;}
 .site-header .kva-header-single{display:grid;grid-template-columns:auto minmax(30px,1fr) 44px;gap:10px;}
 .kva-header-single .brand{justify-self:center;}
-.kva-header-single .brand img{width:28px;height:32px;padding:0;object-fit:contain;}
+.kva-header-single .brand img{width:34px;height:38px;padding:0;object-fit:contain;}
+.kva-header-single .brand-name{font-size:12px;white-space:nowrap;}
+.kva-header-single .brand-name small{font-size:9px;letter-spacing:0;text-transform:none;}
+@media(max-width:520px){.site-header .kva-header-single{gap:4px;}.kva-header-single .brand{flex-direction:column;gap:0;text-align:center;}.kva-header-single .brand img{width:32px;height:32px;}.kva-header-single .brand-name{font-size:9px;line-height:1.15;letter-spacing:0;}.kva-header-single .brand-name small{font-size:7.5px;line-height:1.15;}}
 .kva-header-single .kva-return{letter-spacing:0;}
 section{scroll-margin-top:80px;}
 </style>
@@ -554,6 +557,7 @@ section{scroll-margin-top:80px;}
 <a href="https://kvaretieenergy-rgb.github.io/kvaretie-web/presentacion/" id="kvaBackBtn" class="kva-return" aria-label="Volver a la presentación">← VOLVER A LA PRESENTACIÓN</a>
 <a class="brand" href="#inicio">
 <img alt="Logo KVARETIE Energy Solutions" loading="eager" src="../images/logo-kva-square.png"/>
+<span class="brand-name">KVARETIE<small>Energy Solutions</small></span>
 </a>
 <button aria-label="Abrir menú" class="menu-toggle" id="menuToggle">
 <span></span><span></span><span></span>
