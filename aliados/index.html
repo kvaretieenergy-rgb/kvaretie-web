@@ -672,7 +672,31 @@ KVARETIE Energy Solutions &middot; Red de Aliados &middot; <a class="kva-back-dy
   });
 })();
 </script>
-<script>(function(){try{var p=new URLSearchParams(location.search);var dest=(p.get('from')==='brochure')?'../brochure/':'../presentacion/';document.querySelectorAll('.kva-back-dynamic').forEach(function(a){a.setAttribute('href',dest);});}catch(e){}})();</script>
+<script>
+(function(){
+  var from=new URLSearchParams(location.search).get('from');
+  var dest=from==='brochure'?'../brochure/':'../presentacion/';
+  var returnToFichas=false;
+  if(from==='fichas-informativas'){
+    dest='../fichas-informativas/#contacto';
+    if(document.referrer){
+      var origin=new URL(document.referrer);
+      var fichas=new URL('../fichas-informativas/',location.href);
+      returnToFichas=origin.origin===fichas.origin &&
+        (origin.pathname===fichas.pathname || origin.pathname===fichas.pathname+'index.html') && history.length>1;
+      if(returnToFichas) dest=origin.href;
+    }
+  }
+  document.querySelectorAll('.kva-back-dynamic').forEach(function(a){
+    a.setAttribute('href',dest);
+    if(returnToFichas) a.addEventListener('click',function(event){
+      if(event.button!==0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      history.back();
+    });
+  });
+})();
+</script>
 
 </body>
 </html>
