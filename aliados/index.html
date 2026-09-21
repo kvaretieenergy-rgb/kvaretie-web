@@ -1,364 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>KVARETIE Energy Solutions | Red de Aliados</title>
-<meta content="Únete a la Red de Aliados de KVARETIE Energy Solutions: profesionales, contratistas, empresas y proveedores que colaboran en proyectos eléctricos." name="description"/>
-<meta content="#0a1a3a" name="theme-color"/>
-<meta content="website" property="og:type"/>
-<meta content="KVARETIE Energy Solutions | Red de Aliados" property="og:title"/>
-<meta content="Conectamos profesionales, empresas, contratistas y proveedores para generar nuevas oportunidades y desarrollar proyectos de manera colaborativa." property="og:description"/>
-<meta content="summary_large_image" property="twitter:card"/>
-<meta content="https://kvaretieenergy-rgb.github.io/kvaretie-web/presentacion/assets/og-cover.png" property="og:image"/>
-<meta content="https://kvaretieenergy-rgb.github.io/kvaretie-web/aliados/" property="og:url"/>
-<link href="https://kvaretieenergy-rgb.github.io/kvaretie-web/aliados/" rel="canonical"/>
-<link href="../presentacion/favicon.png" rel="icon" type="image/png"/>
-<link href="../presentacion/assets/apple-touch-icon.png" rel="apple-touch-icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<style>
-:root{
-  --navy: #0a1a3a;
-  --navy-2: #0f2350;
-  --navy-3: #12295e;
-  --blue: #1f6feb;
-  --blue-2: #2f7dfb;
-  --blue-light: #5fa2ff;
-  --silver: #eef1f6;
-  --silver-2: #dde3ec;
-  --ink: #10192e;
-  --gray: #5b6577;
-  --white: #ffffff;
-  --radius: 16px;
-  --radius-sm: 10px;
-  --shadow: 0 10px 30px rgba(10,26,58,0.12);
-  --shadow-sm: 0 4px 14px rgba(10,26,58,0.10);
-  --maxw: 1120px;
-  --formw: 720px;
-  --wa-green: #25D366;
-  --gold: #f0a500;
-  --gold-dark: #c98700;
-  --danger: #d92d2d;
-  --danger-bg: #fdecec;
-}
-*{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{
-  margin:0;
-  font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-  color:var(--ink);
-  background:var(--white);
-  -webkit-font-smoothing:antialiased;
-  overflow-x:hidden;
-}
-img{max-width:100%;display:block;}
-a{color:inherit;text-decoration:none;}
-button{font-family:inherit;cursor:pointer;}
-h1,h2,h3,h4,p{margin:0;}
-ul{margin:0;padding:0;list-style:none;}
-.container{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Red de Aliados — KVARETIE Energy Solutions</title>
+<meta name="description" content="Red de Aliados de KVARETIE Energy Solutions: conectamos técnicos, ingenieros, contratistas y empresas para colaborar en proyectos de ingeniería eléctrica y energía.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KVARETIE Energy Solutions">
+<meta property="og:title" content="Red de Aliados — KVARETIE Energy Solutions">
+<meta property="og:description" content="Conectamos capacidades para generar nuevas oportunidades de colaboración y desarrollar mejores soluciones.">
+<meta property="og:image" content="https://kvaretieenergy-rgb.github.io/kvaretie-web/assets/img/tablero-conduit-dos-tecnicos-full.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="../assets/css/styles.css">
 
-.eyebrow{
-  display:inline-flex;align-items:center;gap:8px;
-  font-size:12.5px;font-weight:700;letter-spacing:1.6px;
-  color:var(--blue-light);text-transform:uppercase;
-  margin-bottom:10px;
-}
-.eyebrow::before{content:"";width:22px;height:2px;background:var(--blue-light);display:inline-block;border-radius:2px;}
-
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  padding:15px 26px;border-radius:50px;font-weight:700;font-size:15px;
-  border:none;transition:transform .15s ease, box-shadow .15s ease, background .15s ease, opacity .15s ease;
-  white-space:nowrap;
-}
-.btn:active{transform:scale(0.97);}
-.btn-primary{background:var(--wa-green);color:#fff;box-shadow:0 8px 20px rgba(37,211,102,0.35);}
-.btn-primary:hover{box-shadow:0 10px 26px rgba(37,211,102,0.45);}
-.btn-primary:disabled{opacity:0.65;cursor:not-allowed;box-shadow:none;transform:none;}
-.btn-outline{background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(255,255,255,0.55);}
-.btn-outline:hover{background:rgba(255,255,255,0.16);}
-.btn-gold{background:var(--gold);color:var(--navy);box-shadow:0 8px 20px rgba(240,165,0,0.4);}
-.btn-gold:hover{background:var(--gold-dark);color:#fff;}
-.btn-block{width:100%;}
-.btn-row{display:flex;flex-wrap:wrap;gap:14px;}
-.btn-row.center{justify-content:center;}
-
-/* ---------- Header ---------- */
-.site-header{
-  position:fixed;top:0;left:0;right:0;z-index:200;
-  background:rgba(10,26,58,0.94);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
-  border-bottom:1px solid rgba(255,255,255,0.08);
-}
-.site-header .container{
-  display:flex;align-items:center;justify-content:space-between;
-  padding-top:12px;padding-bottom:12px;
-}
-.brand{display:flex;align-items:center;gap:10px;color:#fff;}
-.brand img{height:34px;width:34px;object-fit:contain;border-radius:8px;padding:3px;}
-.brand-name{font-weight:800;font-size:15px;letter-spacing:0.3px;line-height:1.1;}
-.brand-name small{display:block;font-weight:500;font-size:10.5px;letter-spacing:1.1px;color:#9fb2df;text-transform:uppercase;}
-.back-home{
-  display:inline-flex;align-items:center;gap:5px;color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.2px;
-  padding:6px 12px;border-radius:999px;border:1.5px solid #f0a500;background:rgba(255,255,255,0.04);white-space:nowrap;text-decoration:none;
-}
-.back-home:hover{background:rgba(255,255,255,0.12);color:#fff;}
-
-/* ---------- Hero ---------- */
-.aliados-hero{
-  background:
-    linear-gradient(160deg, rgba(9,24,54,.62) 0%, rgba(14,33,76,.74) 55%, rgba(16,39,90,.84) 100%),
-    url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNTAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1heCBzbGljZSI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9ImdBIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzEwMzA1QyIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNjE1MzAiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJhZGlhbEdyYWRpZW50IGlkPSJodWJHbG93IiBjeD0iNTAlIiBjeT0iNDYlIiByPSIyNiUiPgo8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNGRkZGRkYiIHN0b3Atb3BhY2l0eT0iMC4wOSIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkZGRkYiIHN0b3Atb3BhY2l0eT0iMCIvPgo8L3JhZGlhbEdyYWRpZW50Pgo8cmFkaWFsR3JhZGllbnQgaWQ9Imdsb3dBIiBjeD0iNTAlIiBjeT0iMTIlIiByPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNGRkZGRkYiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNGRkZGRkYiIHN0b3Atb3BhY2l0eT0iMCIvPgo8L3JhZGlhbEdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNTAwIiBmaWxsPSJ1cmwoI2dBKSIvPgo8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0idXJsKCNnbG93QSkiLz4KPCEtLSBmYWludCBibHVlcHJpbnQgLyB0ZWNobmljYWwgZ3JpZCwgc2hhcmVkIGxhbmd1YWdlIHdpdGggYnJvY2h1cmUgY292ZXIgLS0+CjxnIHN0cm9rZT0iIzNFNkRCMCIgc3Ryb2tlLXdpZHRoPSIxIiBvcGFjaXR5PSIwLjA2Ij4KPGxpbmUgeDE9IjAiIHkxPSI5MCIgeDI9IjgwMCIgeTI9IjkwIi8+CjxsaW5lIHgxPSIwIiB5MT0iMTcwIiB4Mj0iODAwIiB5Mj0iMTcwIi8+CjxsaW5lIHgxPSIwIiB5MT0iMzMwIiB4Mj0iODAwIiB5Mj0iMzMwIi8+CjxsaW5lIHgxPSIxNDAiIHkxPSIwIiB4Mj0iMTQwIiB5Mj0iNTAwIi8+CjxsaW5lIHgxPSIzMjAiIHkxPSIwIiB4Mj0iMzIwIiB5Mj0iNTAwIi8+CjxsaW5lIHgxPSI0ODAiIHkxPSIwIiB4Mj0iNDgwIiB5Mj0iNTAwIi8+CjxsaW5lIHgxPSI2NjAiIHkxPSIwIiB4Mj0iNjYwIiB5Mj0iNTAwIi8+CjwvZz4KPCEtLSBmYWludCBza3lsaW5lIGJhc2U6IGVtcHJlc2FyaWFsIGNvbnRleHQgLS0+CjxnIGZpbGw9IiMwQzJBNTAiIG9wYWNpdHk9IjAuNyI+CjxyZWN0IHg9IjAiIHk9IjQ1MCIgd2lkdGg9IjgwMCIgaGVpZ2h0PSI1MCIvPgo8cmVjdCB4PSIzMCIgeT0iNDEwIiB3aWR0aD0iNDYiIGhlaWdodD0iOTAiLz4KPHJlY3QgeD0iOTAiIHk9IjQyNSIgd2lkdGg9IjM4IiBoZWlnaHQ9Ijc1Ii8+CjxyZWN0IHg9IjY2MCIgeT0iNDE4IiB3aWR0aD0iNDIiIGhlaWdodD0iODIiLz4KPHJlY3QgeD0iNzE2IiB5PSI0MzAiIHdpZHRoPSI1MCIgaGVpZ2h0PSI3MCIvPgo8L2c+CjwhLS0gbmV0d29yazogaHViLWFuZC1zcG9rZSwgS1ZBUkVUSUUgYXMgdGhlIGNvbm5lY3RpbmcgaHViIC0tPgo8cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0idXJsKCNodWJHbG93KSIvPgo8ZyBzdHJva2U9IiM4RkMzRkYiIHN0cm9rZS13aWR0aD0iMS40IiBvcGFjaXR5PSIwLjI2Ij4KPGxpbmUgeDE9IjQwMCIgeTE9IjIzMCIgeDI9IjIzMCIgeTI9IjEzMCIvPgo8bGluZSB4MT0iNDAwIiB5MT0iMjMwIiB4Mj0iMTUwIiB5Mj0iMjMwIi8+CjxsaW5lIHgxPSI0MDAiIHkxPSIyMzAiIHgyPSIyMzAiIHkyPSIzMzAiLz4KPGxpbmUgeDE9IjQwMCIgeTE9IjIzMCIgeDI9IjU3MCIgeTI9IjEzMCIvPgo8bGluZSB4MT0iNDAwIiB5MT0iMjMwIiB4Mj0iNjUwIiB5Mj0iMjMwIi8+CjxsaW5lIHgxPSI0MDAiIHkxPSIyMzAiIHgyPSI1NzAiIHkyPSIzMzAiLz4KPC9nPgo8ZyBzdHJva2U9IiM2RkE4RkYiIHN0cm9rZS13aWR0aD0iMSIgb3BhY2l0eT0iMC4xMyI+CjxsaW5lIHgxPSIyMzAiIHkxPSIxMzAiIHgyPSI1NzAiIHkyPSIxMzAiLz4KPGxpbmUgeDE9IjE1MCIgeTE9IjIzMCIgeDI9IjIzMCIgeTI9IjMzMCIvPgo8bGluZSB4MT0iNjUwIiB5MT0iMjMwIiB4Mj0iNTcwIiB5Mj0iMzMwIi8+CjwvZz4KPGcgZmlsbD0iIzhGQzNGRiIgb3BhY2l0eT0iMC40MiI+CjxjaXJjbGUgY3g9IjIzMCIgY3k9IjEzMCIgcj0iNC41Ii8+CjxjaXJjbGUgY3g9IjE1MCIgY3k9IjIzMCIgcj0iNC41Ii8+CjxjaXJjbGUgY3g9IjIzMCIgY3k9IjMzMCIgcj0iNC41Ii8+CjxjaXJjbGUgY3g9IjU3MCIgY3k9IjEzMCIgcj0iNC41Ii8+CjxjaXJjbGUgY3g9IjY1MCIgY3k9IjIzMCIgcj0iNC41Ii8+CjxjaXJjbGUgY3g9IjU3MCIgY3k9IjMzMCIgcj0iNC41Ii8+CjwvZz4KPGcgZmlsbD0iIzBBMjI0NCIgc3Ryb2tlPSIjRjdCNTAwIiBzdHJva2Utd2lkdGg9IjEuOCIgb3BhY2l0eT0iMC45NSI+CjxjaXJjbGUgY3g9IjQwMCIgY3k9IjIzMCIgcj0iOSIvPgo8L2c+Cjwvc3ZnPg==");
-  background-size: cover, cover;
-  background-position: center bottom, center bottom;
-  background-repeat: no-repeat, no-repeat;
-  color:#fff;padding:126px 0 56px;text-align:center;
-}
-.aliados-hero h1{
-  font-size:clamp(26px,4.4vw,40px);font-weight:800;line-height:1.2;letter-spacing:-0.3px;
-  max-width:760px;margin:0 auto;
-  text-shadow:0 2px 14px rgba(0,0,0,.4);
-}
-.aliados-hero .lead{
-  max-width:620px;margin:18px auto 0;font-size:16px;line-height:1.65;color:#c9d4ee;
-  text-shadow:0 1px 8px rgba(0,0,0,.35);
-}
-.aliados-hero .lead + .lead{margin-top:10px;}
-
-/* ---------- Benefits ---------- */
-.benefits-section{background:#fff;padding:52px 0 8px;}
-.benefits-head{text-align:center;max-width:640px;margin:0 auto 32px;}
-.benefits-head h2{font-size:clamp(21px,3.4vw,27px);font-weight:800;color:var(--navy);letter-spacing:-0.2px;line-height:1.3;}
-.benefits-head p{margin-top:10px;font-size:15px;color:var(--gray);line-height:1.6;}
-.benefits-head p.strong{color:var(--navy);font-weight:700;}
-.benefits-grid{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-bottom:30px;
-}
-.benefit-card{
-  background:var(--silver);border:1.5px solid var(--silver-2);border-radius:var(--radius);
-  padding:22px 20px;text-align:left;
-}
-.benefit-card.featured{background:linear-gradient(160deg,#fff8ea,#fdecc4);border-color:#f3d38a;}
-.benefit-icon{
-  width:44px;height:44px;border-radius:12px;background:rgba(240,165,0,0.16);color:var(--gold-dark);
-  display:flex;align-items:center;justify-content:center;margin-bottom:14px;
-}
-.benefit-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
-.benefit-card h3{font-size:15px;font-weight:800;color:var(--navy);margin-bottom:8px;line-height:1.3;}
-.benefit-card p{font-size:13.5px;color:var(--gray);line-height:1.55;}
-
-.benefit-highlight{
-  background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);border-radius:var(--radius);
-  padding:32px 26px;text-align:center;color:#fff;margin-bottom:44px;
-}
-.benefit-highlight h3{font-size:18.5px;font-weight:800;letter-spacing:-0.2px;max-width:640px;margin:0 auto 12px;line-height:1.35;}
-.benefit-highlight p{font-size:14.5px;color:#c9d4ee;max-width:560px;margin:0 auto;line-height:1.6;}
-
-@media (max-width:640px){
-  .benefits-section{padding:38px 0 4px;}
-  .benefits-grid{grid-template-columns:1fr;gap:12px;}
-  .benefit-card{padding:19px 17px;}
-  .benefit-highlight{padding:26px 20px;}
-}
-
-/* ---------- Form section ---------- */
-.form-section{background:var(--silver);padding:44px 0 60px;}
-.form-card{
-  max-width:var(--formw);margin:0 auto;background:#fff;border-radius:var(--radius);
-  box-shadow:var(--shadow);padding:28px 22px;
-}
-@media (min-width:640px){.form-card{padding:40px 44px;}}
-
-.field{margin-bottom:20px;}
-.field label{display:block;font-weight:700;font-size:14px;color:var(--navy);margin-bottom:7px;}
-.field label .opt{font-weight:500;color:var(--gray);text-transform:none;letter-spacing:0;}
-.field .req{color:var(--danger);}
-.help-text{font-size:12.5px;color:var(--gray);margin-top:6px;line-height:1.5;}
-.field input[type="text"],
-.field input[type="email"],
-.field input[type="tel"],
-.field input[type="url"],
-.field select,
-.field textarea{
-  width:100%;padding:13px 14px;border-radius:var(--radius-sm);border:1.5px solid var(--silver-2);
-  font-family:inherit;font-size:15px;color:var(--ink);background:#fff;transition:border-color .15s ease;
-}
-.field textarea{resize:vertical;min-height:92px;}
-.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--blue-2);}
-.field.has-error input,.field.has-error select,.field.has-error textarea{border-color:var(--danger);background:var(--danger-bg);}
-.field-error{display:none;color:var(--danger);font-size:12.5px;font-weight:600;margin-top:6px;}
-.field.has-error .field-error{display:block;}
-
-.check-group{display:flex;flex-direction:column;gap:10px;}
-.check-option{
-  display:flex;align-items:flex-start;gap:10px;font-size:14.5px;line-height:1.45;color:var(--ink);
-  padding:10px 12px;border:1.5px solid var(--silver-2);border-radius:var(--radius-sm);cursor:pointer;
-}
-.check-option:hover{border-color:var(--blue-light);}
-.check-option input{margin-top:2px;width:18px;height:18px;flex:0 0 auto;accent-color:var(--blue-2);}
-
-.authorize{
-  display:flex;align-items:flex-start;gap:12px;background:var(--silver);border-radius:var(--radius-sm);
-  padding:16px;margin:26px 0 24px;font-size:13.5px;line-height:1.55;color:var(--gray);
-}
-.authorize input{margin-top:3px;width:19px;height:19px;flex:0 0 auto;accent-color:var(--blue-2);}
-
-.hp-field{position:absolute;left:-9999px;top:-9999px;opacity:0;height:0;width:0;overflow:hidden;}
-
-.form-msg{
-  display:none;border-radius:var(--radius-sm);padding:16px 18px;margin-bottom:22px;font-size:14px;line-height:1.55;
-}
-.form-msg.show{display:block;}
-.form-msg.error{background:var(--danger-bg);color:#8a1f1f;border:1.5px solid #f3b9b9;}
-.form-msg.error .btn{margin-top:12px;}
-
-#successMessage{display:none;max-width:var(--formw);margin:0 auto;background:#fff;border-radius:var(--radius);
-  box-shadow:var(--shadow);padding:44px 26px;text-align:center;}
-#successMessage.show{display:block;}
-#successMessage .check-badge{
-  width:64px;height:64px;border-radius:50%;background:rgba(37,211,102,0.12);color:var(--wa-green);
-  display:flex;align-items:center;justify-content:center;margin:0 auto 18px;
-}
-#successMessage .check-badge svg{width:32px;height:32px;}
-#successMessage h2{font-size:21px;font-weight:800;color:var(--navy);margin-bottom:12px;}
-#successMessage p{font-size:15px;color:var(--gray);line-height:1.6;max-width:480px;margin:0 auto;}
-#successMessage p + p{margin-top:10px;}
-
-/* ---------- WhatsApp secondary ---------- */
-.aliados-secondary{background:#fff;padding:8px 0 64px;text-align:center;}
-.aliados-secondary .inner{
-  max-width:560px;margin:0 auto;background:var(--navy);border-radius:var(--radius);
-  padding:34px 26px;color:#fff;
-}
-.aliados-secondary .kicker{font-size:13px;font-weight:700;letter-spacing:0.4px;color:#9fb2df;text-transform:uppercase;margin-bottom:8px;}
-.aliados-secondary h3{font-size:19px;font-weight:800;margin-bottom:10px;}
-.aliados-secondary p{font-size:14.5px;color:#c9d4ee;line-height:1.55;margin-bottom:20px;}
-
-/* ---------- Footer ---------- */
-.aliados-footer{background:var(--navy-2);color:#9fb2df;padding:26px 0;text-align:center;font-size:12.5px;}
-.aliados-footer a{color:#fff;font-weight:600;}
-.aliados-footer a:hover{text-decoration:underline;}
-
-@media (max-width:640px){
-  .aliados-hero{padding:112px 0 44px;}
-  .form-section{padding:34px 0 48px;}
-  .form-card{padding:24px 18px;}
-  .btn-block-mobile{width:100%;}
-  .site-header .brand-name{font-size:13.5px;}
-  .back-home{font-size:9.5px;padding:6px 10px;gap:4px;}
-}
-</style>
-<style id="kva-final-review">
-.kva-return{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-height:44px;padding:8px 12px;border:1px solid #c6a354;border-radius:999px;background:#0b2a55;color:#fff;font:700 10.5px/1.35 Arial,Helvetica,sans-serif;letter-spacing:.02em;text-decoration:none;white-space:nowrap;box-sizing:border-box;}
-.kva-return:hover{background:#173a70;color:#fff;}
-.kva-return:focus-visible{outline:2px solid #f7c759;outline-offset:3px;}
-html{scroll-padding-top:90px;}
-@media(max-width:420px){.site-header .container{padding:10px 12px;gap:8px;}.site-header .brand{gap:6px;}.site-header .brand img{width:26px;height:30px;padding:0;}.site-header .brand-name{font-size:11px;}.site-header .brand-name small{font-size:8px;letter-spacing:.4px;}}
-</style>
+<link rel="stylesheet" href="../assets/css/aliados-form.css">
+<link rel="canonical" href="https://kvaretieenergy-rgb.github.io/kvaretie-web/aliados/">
+<meta property="og:url" content="https://kvaretieenergy-rgb.github.io/kvaretie-web/aliados/">
+<link rel="icon" type="image/png" href="../presentacion/favicon.png">
 </head>
 <body>
 
-<svg style="display:none">
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13 2 4 14h6l-1.5 8L20 9h-6.5z"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7.5" height="7.5" rx=".5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx=".5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx=".5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx=".5"/></symbol>
+  <symbol id="i-collab" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="1"/><path d="M8 21h8M12 17v4"/><path fill="currentColor" stroke="none" d="M10.5 8.2 15.5 10.6 10.5 13z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-4 4v-4H4z"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m14.5 9.5-2 5-5 2 2-5z"/></symbol>
+  <symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v5M15 2v5M7 7h10v4a5 5 0 0 1-5 5 5 5 0 0 1-5-5z"/><path d="M12 16v6"/></symbol>
+  <symbol id="i-shieldbolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6z"/><path fill="currentColor" stroke="none" d="m13 8-4 6h2.6l-.9 4 4.3-6.2h-2.7z"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h3l1.5-2h9L18 8h3v11H3z"/><circle cx="12" cy="13.5" r="3.2"/></symbol>
+  <symbol id="i-network" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2.2"/><circle cx="19" cy="6" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M6.8 7.3 10.5 16M17.2 7.3 13.5 16M7.2 6h9.6"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 4.6L3 17.2 6.8 21l6.3-6.3a4 4 0 0 0 4.6-5.4l-2.9 2.9-2.6-2.6z"/></symbol>
+  <symbol id="i-checkshield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6z"/><path d="m9 12.2 2.1 2.1L15.3 10"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8 12 4l9 4-9 4-9-4Z"/><path d="M3 8v9l9 4 9-4V8M12 12v9"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m4 6.5 8 6 8-6"/></symbol>
+  <symbol id="i-headset" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13v-1a8 8 0 0 1 16 0v1"/><rect x="3" y="13" width="4" height="6" rx="1.3"/><rect x="17" y="13" width="4" height="6" rx="1.3"/><path d="M20 19v.5A3.5 3.5 0 0 1 16.5 23H13"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><path d="M12 3v3.2M12 17.8V21M3 12h3.2M17.8 12H21"/></symbol>
+  <symbol id="i-handdoc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="16" rx="1.2"/><path d="M9 7h6M9 10.5h6M9 14h3.5"/><path d="M4 15.5c1.5-1 3-1 4 0l1 1c.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15 15 9"/><path d="M11 6.5 12.3 5a4 4 0 0 1 5.7 5.7l-1.5 1.3M13 17.5 11.7 19a4 4 0 0 1-5.7-5.7l1.5-1.3"/></symbol>
+  <symbol id="i-coin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v9M9.5 15c0 1.1 1.1 2 2.5 2s2.5-.7 2.5-1.8c0-2.4-5-1.4-5-3.7 0-1.1 1.1-1.7 2.5-1.7s2.5.7 2.5 1.7"/></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="4.5" rx=".5"/><rect x="4.5" y="13.5" width="15" height="8" rx=".5"/><path d="M12 9v12.5"/><path d="M12 9c-1.5-4-6-4-6-1.2C6 9 8 9 12 9Zm0 0c1.5-4 6-4 6-1.2C18 9 16 9 12 9Z"/></symbol>
+  <symbol id="i-growth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17 9 11l4 4 8-8"/><path d="M15 7h6v6"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M17 14.2c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1s-.7.9-.9 1-.3.2-.6 0a7.6 7.6 0 0 1-2.2-1.4 8.7 8.7 0 0 1-1.6-2c-.2-.3 0-.5.1-.6l.4-.5c.1-.1.2-.3.3-.4a.6.6 0 0 0 0-.5c0-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-1 2.2c0 1.3 1 2.6 1.1 2.8s2 3 4.7 4.3c2.7 1.2 2.7.8 3.2.8s1.6-.7 1.8-1.3.2-1.2.2-1.3-.2-.2-.5-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 8.5h2V5h-2a3.5 3.5 0 0 0-3.5 3.5V11H9v3h2.5v7h3v-7H17l.5-3h-3V8.8c0-.2.1-.3.5-.3z"/></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24" fill="currentColor"><path d="M14.5 3h2.4a4.6 4.6 0 0 0 3.3 3.9v2.5a7 7 0 0 1-3.3-.9v6.2a5.7 5.7 0 1 1-5.7-5.7c.2 0 .4 0 .6.1v2.6a3.1 3.1 0 1 0 2.2 3V3z"/></symbol>
 <symbol fill="none" id="icon-check" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></symbol>
 <symbol id="icon-whatsapp" viewbox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 2.1.62 4.05 1.68 5.68L2 22l4.59-1.51a9.87 9.87 0 0 0 5.45 1.6h.005c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.06h-.004a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.12 1.02.99-3.02-.2-.31a8.18 8.18 0 0 1-1.26-4.39c0-4.53 3.7-8.22 8.24-8.22a8.2 8.2 0 0 1 5.83 2.41 8.15 8.15 0 0 1 2.41 5.81c0 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.16 0-.43.06-.66.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.02 2.57.12.16 1.75 2.67 4.25 3.74.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.11-.23-.17-.48-.29z"></path></symbol>
-<symbol fill="none" id="icon-arrow-right" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24"><line x1="5" x2="19" y1="12" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></symbol>
-<symbol id="icon-coins" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 6.5v11M15 9.8c0-1.6-1.5-2.6-3-2.6s-3 1-3 2.3c0 3 6 1.5 6 4.3 0 1.6-1.5 2.6-3 2.6s-3-1-3-2.6"></path></symbol>
-<symbol id="icon-gift" viewbox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="1"></rect><path d="M3 12h18M12 8v13M8 8a2.5 2.5 0 0 1 0-5c1.5 0 3 2 4 5 1-3 2.5-5 4-5a2.5 2.5 0 0 1 0 5"></path></symbol>
-<symbol id="icon-target" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="5"></circle><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"></circle></symbol>
-<symbol id="icon-share" viewbox="0 0 24 24"><circle cx="6" cy="12" r="2.3"></circle><circle cx="18" cy="6" r="2.3"></circle><circle cx="18" cy="18" r="2.3"></circle><path d="M8.1 10.8 15.9 7.2M8.1 13.2l7.8 3.6"></path></symbol>
-<symbol id="icon-users" viewbox="0 0 24 24"><circle cx="9" cy="9" r="4"></circle><circle cx="17" cy="10.4" r="3.2"></circle><path d="M2.5 20c.5-3.5 3-6 6.5-6s6 2.5 6.5 6M14.5 14.5c2.6 0 4.8 2 5.3 5"></path></symbol>
-<symbol id="icon-trending" viewbox="0 0 24 24"><path d="M3 17l6-6 4 4 8-9"></path><path d="M15 6h6v6"></path></symbol>
-<symbol id="icon-tool" viewbox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2.5-2.5z"></path></symbol>
 </svg>
 
 <header class="site-header">
-<div class="container">
-<a class="brand" href="../index.html">
-<img alt="Logo KVARETIE Energy Solutions" loading="eager" src="../images/logo-kva-square.png"/>
-<span class="brand-name">KVARETIE<small>Energy Solutions</small></span>
-</a>
-<a class="kva-return kva-back-dynamic" href="../presentacion/" aria-label="Volver a la presentación">
-<span>← VOLVER A LA PRESENTACIÓN</span>
-</a>
-</div>
+  <div class="wrap">
+    <a href="../" class="logo-slot" aria-label="KVARETIE Energy Solutions — inicio">
+      <span class="logo-mark"><img src="../assets/img/logo/kva-logo.png" alt="" width="256" height="256" loading="eager"></span>
+      <span class="logo-word"><b>KVARETIE</b><span>Energy Solutions</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="../index.html#nosotros">Quiénes somos</a></li>
+        <li><a href="../index.html#servicios">Servicios</a></li>
+        <li><a href="../index.html#trabajo">Nuestro trabajo</a></li>
+        <li><a href="../" data-kva-back>← VOLVER</a></li>
+        <li><a href="../index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-gold" href="https://wa.me/573016168670?text=Hola%2C%20estuve%20visitando%20la%20p%C3%A1gina%20web%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios." target="_blank" rel="noopener">Hablar con un asesor</a>
+      <button class="menu-toggle" data-menu-toggle aria-label="Abrir menú"><svg><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
 </header>
 
+<div class="mobile-drawer" data-mobile-drawer data-open="false">
+  <div class="backdrop"></div>
+  <div class="panel" role="dialog" aria-label="Menú de navegación">
+    <div class="panel-top">
+      <span class="logo-word"><b style="color:#fff">KVARETIE</b><span>Energy Solutions</span></span>
+      <button class="close-btn" data-menu-close aria-label="Cerrar menú"><svg width="16" height="16"><use href="#i-close"/></svg></button>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html#nosotros">Quiénes somos <svg><use href="#i-arrow"/></svg></a></li>
+        <li><a href="../index.html#servicios">Servicios <svg><use href="#i-arrow"/></svg></a></li>
+        <li><a href="../index.html#trabajo">Nuestro trabajo <svg><use href="#i-arrow"/></svg></a></li>
+        <li><a href="../" data-kva-back>← VOLVER <svg><use href="#i-arrow"/></svg></a></li>
+        <li><a href="../presentacion/" rel="noopener">Presentación digital <svg><use href="#i-arrow"/></svg></a></li>
+        <li><a href="../index.html#contacto">Contacto <svg><use href="#i-arrow"/></svg></a></li>
+      </ul>
+    </nav>
+    <div class="drawer-foot">
+      <a class="btn btn-gold btn-block" href="https://wa.me/573016168670?text=Hola%2C%20estuve%20visitando%20la%20p%C3%A1gina%20web%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios." target="_blank" rel="noopener">Hablar con un asesor</a>
+      <div class="drawer-social">
+        <a href="https://www.instagram.com/kvaretie.energy/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="17" height="17"><use href="#i-instagram"/></svg></a>
+        <a href="https://www.facebook.com/kvaretie.energy" target="_blank" rel="noopener" aria-label="Facebook"><svg width="17" height="17"><use href="#i-facebook"/></svg></a>
+        <a href="https://www.tiktok.com/@kvaretie.energy" target="_blank" rel="noopener" aria-label="TikTok"><svg width="17" height="17"><use href="#i-tiktok"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <main>
-<section class="aliados-hero">
-<div class="container">
-<div class="eyebrow" style="justify-content:center">Red de aliados</div>
-<h1>ÚNETE A NUESTRA RED DE ALIADOS</h1>
-<p class="lead">Conectamos profesionales, empresas, contratistas y proveedores para generar nuevas oportunidades y desarrollar proyectos de manera colaborativa.</p>
-<p class="lead">Déjanos tus datos y conoce cómo puedes vincularte a nuestra Red de Aliados.</p>
-</div>
+<section class="page-hero blueprint-grid" style="background:linear-gradient(180deg, rgba(8,16,28,.88), rgba(8,16,28,.96)), url('../assets/img/tablero-conduit-dos-tecnicos-full.jpg'); background-size:cover; background-position:center;">
+  <svg class="node-trace" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 120 L220 120 L260 170 L560 170 L600 120 L1200 120"/>
+    <path d="M0 560 L180 560 L220 610 L640 610 L680 560 L1000 560 L1040 610 L1200 610"/>
+    <circle cx="260" cy="170" r="4"/>
+    <circle cx="600" cy="120" r="4"/>
+    <circle cx="680" cy="560" r="4"/>
+    <circle cx="1040" cy="610" r="4"/>
+  </svg>
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../" data-kva-back>← VOLVER</a> · <a href="../">Inicio</a> / Red de Aliados</div>
+    <p class="eyebrow on-dark">Red de Aliados</p>
+    <h1>Red de Aliados<br>KVARETIE Energy Solutions</h1>
+    <p>Conectamos capacidades para generar nuevas oportunidades de colaboración y desarrollar mejores soluciones.</p>
+    <div class="btn-row" style="margin-top:28px">
+      <a class="btn btn-gold" href="#formulario" rel="noopener">Quiero ser aliado <svg><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-outline" href="#que-es">Conocer más</a>
+    </div>
+  </div>
 </section>
 
-<section class="benefits-section">
-<div class="container">
-<div class="benefits-head">
-<div class="eyebrow" style="justify-content:center">Beneficios</div>
-<h2>BENEFICIOS DE SER PARTE DE NUESTRA RED</h2>
-<p class="strong">Genera oportunidades de ingresos adicionales por medio de nuestros servicios y proyectos.</p>
-<p>Conecta, recomienda y genera nuevas oportunidades.</p>
-</div>
-
-<div class="benefits-grid">
-
-<div class="benefit-card featured">
-<div class="benefit-icon"><svg><use href="#icon-coins"></use></svg></div>
-<h3>Oportunidades de ingresos adicionales</h3>
-<p>Como aliado puedes participar en oportunidades comerciales, referidos y colaboraciones relacionadas con los servicios de KVARETIE Energy Solutions, generando posibilidades de ingresos adicionales según cada proyecto o acuerdo.</p>
-</div>
-
-<div class="benefit-card">
-<div class="benefit-icon"><svg><use href="#icon-gift"></use></svg></div>
-<h3>Beneficios en nuestros servicios</h3>
-<p>Los aliados de KVARETIE pueden acceder a beneficios y condiciones especiales en determinados servicios de la empresa, dependiendo del tipo de alianza, proyecto y condiciones comerciales aplicables.</p>
-</div>
-
-<div class="benefit-card">
-<div class="benefit-icon"><svg><use href="#icon-target"></use></svg></div>
-<h3>Nuevas oportunidades</h3>
-<p>Accede a posibilidades de colaboración en proyectos y servicios según tu especialidad.</p>
-</div>
-
-<div class="benefit-card">
-<div class="benefit-icon"><svg><use href="#icon-share"></use></svg></div>
-<h3>Referidos y conexiones</h3>
-<p>Conecta clientes, profesionales y empresas con soluciones de KVARETIE y participa en oportunidades comerciales cuando corresponda.</p>
-</div>
-
-<div class="benefit-card">
-<div class="benefit-icon"><svg><use href="#icon-users"></use></svg></div>
-<h3>Proyectos en conjunto</h3>
-<p>Podemos desarrollar proyectos de manera colaborativa cuando las capacidades de ambas partes sean complementarias.</p>
-</div>
-
-<div class="benefit-card">
-<div class="benefit-icon"><svg><use href="#icon-trending"></use></svg></div>
-<h3>Mayor alcance comercial</h3>
-<p>Amplía tu red de contactos y conecta tus servicios con nuevas oportunidades dentro del ecosistema de aliados.</p>
-</div>
-
-<div class="benefit-card">
-<div class="benefit-icon"><svg><use href="#icon-tool"></use></svg></div>
-<h3>Soporte y conexión técnica</h3>
-<p>Conecta con profesionales, proveedores y empresas relacionadas con diferentes áreas de la ingeniería y los servicios técnicos.</p>
-</div>
-
-</div>
-
-<div class="benefit-highlight">
-<h3>SER ALIADO TAMBIÉN PUEDE GENERAR NUEVAS OPORTUNIDADES PARA TI.</h3>
-<p>Conecta tus servicios, recomienda soluciones de KVARETIE y participa en oportunidades comerciales y proyectos de manera colaborativa.</p>
-</div>
-
-</div>
+<section class="section" id="que-es">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-media" data-reveal>
+        <div class="framecorners">
+          <img src="../assets/img/aliados-reunion-alianza-full.jpg" alt="Reunión de trabajo entre el equipo de KVARETIE y un aliado, cerrando un acuerdo de colaboración" loading="lazy">
+        </div>
+      </div>
+      <div class="about-copy">
+        <div class="sheet-divider">Hoja B.01 — Qué es</div>
+        <p class="eyebrow">¿Qué es nuestra Red de Aliados?</p>
+        <h2 class="section-title">Un espacio para colaborar, no solo para contratar.</h2>
+        <div data-reveal style="margin-top:20px">
+          <p>La Red de Aliados de KVARETIE Energy Solutions busca conectar profesionales, empresas y proveedores para ampliar capacidades, generar oportunidades de colaboración y participar conjuntamente en diferentes tipos de proyectos.</p>
+          <p>No se trata de una bolsa de empleo ni de un esquema de referidos con ingresos garantizados: es una red de relaciones profesionales que crece a partir de proyectos reales y necesidades concretas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="form-section">
+<section class="section blueprint-grid light" style="background:var(--paper)" id="quienes">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="sheet-divider">Hoja B.02 — Quiénes pueden vincularse</div>
+      <p class="eyebrow">Perfiles que buscamos</p>
+      <h2 class="section-title">¿Quiénes pueden vincularse?</h2>
+      <p class="section-lede" style="margin-top:14px">Abrimos la Red de Aliados a distintos perfiles técnicos, profesionales y empresariales.</p>
+    </div>
+    <div class="chips" data-reveal-group>
+      <span class="chip" data-reveal>Técnicos electricistas</span>
+      <span class="chip" data-reveal>Profesionales independientes</span>
+      <span class="chip" data-reveal>Contratistas</span>
+      <span class="chip" data-reveal>Ingenieros</span>
+      <span class="chip" data-reveal>Empresas de ingeniería</span>
+      <span class="chip" data-reveal>Arquitectos</span>
+      <span class="chip" data-reveal>Constructores</span>
+      <span class="chip" data-reveal>Proveedores de materiales</span>
+      <span class="chip" data-reveal>Especialistas en energía solar</span>
+      <span class="chip" data-reveal>Empresas de seguridad electrónica</span>
+      <span class="chip" data-reveal>Empresas de automatización</span>
+      <span class="chip" data-reveal>Empresas de ascensores</span>
+      <span class="chip" data-reveal>Otros profesionales y empresas complementarias</span>
+    </div>
+  </div>
+</section>
+
+<section class="section navy" id="beneficios" style="position:relative;overflow:hidden">
+  <svg class="node-trace" viewBox="0 0 1200 500" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 60 L340 60 L380 110 L900 110 L940 60 L1200 60"/>
+    <path d="M0 430 L260 430 L300 380 L780 380 L820 430 L1200 430"/>
+    <circle cx="380" cy="110" r="4"/>
+    <circle cx="940" cy="60" r="4"/>
+    <circle cx="300" cy="380" r="4"/>
+  </svg>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="section-head on-dark">
+      <div class="sheet-divider">Hoja B.03 — Beneficios</div>
+      <p class="eyebrow on-dark">Por qué unirte</p>
+      <h2 class="section-title">Beneficios de ser parte de nuestra red.</h2>
+    </div>
+    <div class="benefit-list" data-reveal-group>
+      <div class="benefit-item" data-reveal>
+        <span class="bi-ic"><svg><use href="#i-collab"/></svg></span>
+        <div><h4>Oportunidades de colaboración</h4><p>Nuevos espacios para trabajar junto a otros profesionales y empresas.</p></div>
+      </div>
+      <div class="benefit-item" data-reveal>
+        <span class="bi-ic"><svg><use href="#i-target"/></svg></span>
+        <div><h4>Participación en proyectos</h4><p>Posibilidad de sumarte a proyectos donde tu perfil sea compatible.</p></div>
+      </div>
+      <div class="benefit-item" data-reveal>
+        <span class="bi-ic"><svg><use href="#i-link"/></svg></span>
+        <div><h4>Referencias y conexiones</h4><p>Acceso a una red de contactos técnicos y profesionales.</p></div>
+      </div>
+      <div class="benefit-item" data-reveal>
+        <span class="bi-ic"><svg><use href="#i-coin"/></svg></span>
+        <div><h4>Oportunidades de ingresos adicionales</h4><p>Posibilidad de generar ingresos adicionales a partir de colaboraciones puntuales.</p></div>
+      </div>
+      <div class="benefit-item" data-reveal>
+        <span class="bi-ic"><svg><use href="#i-gift"/></svg></span>
+        <div><h4>Beneficios en determinados servicios</h4><p>Acceso a posibles beneficios o condiciones especiales en algunos servicios de KVARETIE.</p></div>
+      </div>
+      <div class="benefit-item" data-reveal>
+        <span class="bi-ic"><svg><use href="#i-growth"/></svg></span>
+        <div><h4>Crecimiento de la red profesional</h4><p>Fortalecimiento de relaciones profesionales a mediano y largo plazo.</p></div>
+      </div>
+    </div>
+    <p class="disclaimer on-dark">La Red de Aliados es un espacio de colaboración profesional. No garantizamos ingresos, proyectos asegurados ni resultados específicos: las oportunidades dependen de la compatibilidad entre perfiles y las necesidades reales de cada proyecto.</p>
+  </div>
+</section>
+
+<section class="section blueprint-grid light" style="background:var(--paper)" id="como-funciona">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="sheet-divider">Hoja B.04 — Cómo funciona</div>
+      <p class="eyebrow">Proceso de vinculación</p>
+      <h2 class="section-title">¿Cómo funciona?</h2>
+    </div>
+    <ol class="steps-vert">
+      <li><div><h4>Déjanos tus datos</h4><p>Completas el formulario de la Red de Aliados con tu información de contacto y tu perfil.</p></div></li>
+      <li><div><h4>Conocemos tu perfil o empresa</h4><p>Revisamos qué haces, en qué te especializas y en qué tipo de proyectos podrías participar.</p></div></li>
+      <li><div><h4>Identificamos oportunidades de colaboración</h4><p>Evaluamos si hay compatibilidad con proyectos o necesidades actuales.</p></div></li>
+      <li><div><h4>Mantenemos contacto</h4><p>Te contactamos cuando surja una oportunidad compatible con tu perfil.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section dark blueprint-grid">
+  <div class="wrap">
+    <div class="cta-strip" data-reveal>
+      <div>
+        <p class="eyebrow" style="color:var(--navy-900)">Súmate a la red</p>
+        <h3>¿Listo para ser Aliado KVARETIE?</h3>
+        <p>Completa el formulario y cuéntanos sobre tu perfil o tu empresa.</p>
+      </div>
+      <a class="btn btn-outline-dark" href="#formulario" rel="noopener">
+        Quiero ser aliado <svg><use href="#i-arrow"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+<section class="form-section" id="formulario" aria-label="Solicitud de alianza">
 <div class="container">
 
 <div class="form-card" id="formCard">
@@ -503,200 +393,60 @@ html{scroll-padding-top:90px;}
 
 </div>
 </section>
-
-<section class="aliados-secondary">
-<div class="container">
-<div class="inner">
-<div class="kicker">¿Tienes dudas sobre nuestra Red de Aliados?</div>
-<h3>Habla con nuestro equipo y recibe más información.</h3>
-<p>Escríbenos directamente por WhatsApp y te ayudamos con cualquier duda sobre el proceso de alianza.</p>
-<div class="btn-row center">
-<a class="btn btn-outline" href="https://wa.me/573016168670?text=Hola%2C%20vi%20la%20informaci%C3%B3n%20sobre%20la%20Red%20de%20Aliados%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20m%C3%A1s%20informaci%C3%B3n." rel="noopener" target="_blank">
-<svg height="17" width="17"><use href="#icon-whatsapp"></use></svg> Comunícate con un asesor
-</a>
-</div>
-</div>
-</div>
-</section>
 </main>
 
-<footer class="aliados-footer">
-<div class="container">
-KVARETIE Energy Solutions &middot; Red de Aliados &middot; <a class="kva-back-dynamic" href="../presentacion/">← Volver a página anterior</a>
-</div>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-word"><b style="color:#fff;font-size:1.1rem">KVARETIE</b><span>Energy Solutions</span></span>
+        <p>Ingeniería eléctrica, infraestructura, energía, redes y seguridad electrónica — diseño, ejecución y acompañamiento técnico.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/kvaretie.energy/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+          <a href="https://www.facebook.com/kvaretie.energy" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-facebook"/></svg></a>
+          <a href="https://www.tiktok.com/@kvaretie.energy" target="_blank" rel="noopener" aria-label="TikTok"><svg><use href="#i-tiktok"/></svg></a>
+          <a href="https://wa.me/573016168670" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Accesos</h5>
+        <ul>
+          <li><a href="../index.html#servicios">Servicios</a></li>
+          <li><a href="../index.html#trabajo">Nuestro trabajo</a></li>
+          <li><a href="../index.html#aliados">Red de aliados</a></li>
+          <li><a href="../presentacion/" rel="noopener">Presentación digital</a></li>
+          <li><a href="../index.html#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Redes sociales</h5>
+        <ul>
+          <li><a href="https://www.instagram.com/kvaretie.energy/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/kvaretie.energy" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.tiktok.com/@kvaretie.energy" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://wa.me/573016168670" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-cta">
+        <h5>Contáctanos</h5>
+        <a class="btn btn-gold btn-block" href="https://wa.me/573016168670?text=Hola%2C%20estuve%20visitando%20la%20p%C3%A1gina%20web%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios." target="_blank" rel="noopener">Hablar con un asesor</a>
+        <a class="btn btn-ghost btn-block" href="#formulario" rel="noopener">Quiero ser aliado</a>
+        <a class="btn btn-ghost btn-block" href="../presentacion/" rel="noopener">Presentación digital</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> KVARETIE Energy Solutions. Todos los derechos reservados.</span>
+      <span>kvaretie.energy@gmail.com · +57 301 616 8670</span>
+    </div>
+  </div>
 </footer>
 
-<script>
-(function(){
-  var form = document.getElementById('aliadosForm');
-  var formCard = document.getElementById('formCard');
-  var submitBtn = document.getElementById('submitBtn');
-  var submitBtnText = document.getElementById('submitBtnText');
-  var successBox = document.getElementById('successMessage');
-  var formError = document.getElementById('formError');
-  var isSubmitting = false;
+<a class="wa-float" href="https://wa.me/573016168670?text=Hola%2C%20estuve%20visitando%20la%20p%C3%A1gina%20web%20de%20KVARETIE%20Energy%20Solutions%20y%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg><use href="#i-whatsapp"/></svg>
+</a>
 
-  var ENDPOINT = 'https://formsubmit.co/ajax/kvaretie.energy@gmail.com';
-
-  function clearErrors(){
-    var fields = form.querySelectorAll('.field.has-error');
-    fields.forEach(function(f){ f.classList.remove('has-error'); });
-  }
-
-  function markError(name){
-    var field = form.querySelector('.field[data-field="' + name + '"]');
-    if (field) field.classList.add('has-error');
-    return field;
-  }
-
-  function isValidEmail(v){
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
-  }
-  function isValidPhone(v){
-    var digits = v.replace(/[^0-9]/g, '');
-    return digits.length >= 7;
-  }
-
-  function validate(){
-    var errors = [];
-    var val = function(name){
-      var el = form.elements[name];
-      return el ? el.value.trim() : '';
-    };
-
-    if (!val('nombre_completo')) errors.push('nombre_completo');
-    if (!val('tipo_aliado')) errors.push('tipo_aliado');
-    if (!val('especialidad')) errors.push('especialidad');
-    if (!val('ciudad')) errors.push('ciudad');
-
-    var wa = val('whatsapp');
-    if (!wa || !isValidPhone(wa)) errors.push('whatsapp');
-
-    var correo = val('correo');
-    if (!correo || !isValidEmail(correo)) errors.push('correo');
-
-    var colaboracion = form.querySelectorAll('input[name="colaboracion"]:checked');
-    if (colaboracion.length === 0) errors.push('colaboracion');
-
-    if (!form.elements['autorizacion'].checked) errors.push('autorizacion');
-
-    return errors;
-  }
-
-  function buildPayload(){
-    var val = function(name){
-      var el = form.elements[name];
-      return el ? el.value.trim() : '';
-    };
-    var colaboracion = Array.from(form.querySelectorAll('input[name="colaboracion"]:checked')).map(function(el){ return el.value; });
-    var now = new Date().toLocaleString('es-CO', { dateStyle: 'long', timeStyle: 'short', timeZone: 'America/Bogota' });
-
-    return {
-      _subject: 'Nueva solicitud — Red de Aliados KVARETIE',
-      _template: 'table',
-      _captcha: 'false',
-      _honey: form.elements['_honey'].value,
-      _replyto: val('correo'),
-      'NOMBRE': val('nombre_completo'),
-      'EMPRESA': val('empresa') || '—',
-      'TIPO DE ALIADO': val('tipo_aliado'),
-      'ESPECIALIDAD': val('especialidad'),
-      'CIUDAD': val('ciudad'),
-      'COBERTURA': val('cobertura') || '—',
-      'WHATSAPP': val('whatsapp'),
-      'CORREO': val('correo'),
-      'WEB / RED SOCIAL / PORTAFOLIO': val('web_social') || '—',
-      'TIPO DE COLABORACIÓN': colaboracion.length ? colaboracion.join(', ') : '—',
-      'PRESENTACIÓN': val('presentacion') || '—',
-      'MATRÍCULA / ACREDITACIÓN': val('matricula') || '—',
-      'PORTAFOLIO': val('portafolio') || '—',
-      'MENSAJE': val('mensaje_adicional') || '—',
-      'AUTORIZACIÓN': form.elements['autorizacion'].checked ? 'Aceptada' : 'No aceptada',
-      'FECHA': now
-    };
-  }
-
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    if (isSubmitting) return;
-
-    clearErrors();
-    formError.classList.remove('show');
-
-    // Honeypot: if filled, silently drop (looks like a bot)
-    if (form.elements['_honey'].value) return;
-
-    var errors = validate();
-    if (errors.length) {
-      var firstField = null;
-      errors.forEach(function(name){
-        var f = markError(name);
-        if (!firstField) firstField = f;
-      });
-      if (firstField) firstField.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      return;
-    }
-
-    isSubmitting = true;
-    submitBtn.disabled = true;
-    var originalText = submitBtnText.textContent;
-    submitBtnText.textContent = 'Enviando...';
-
-    var payload = buildPayload();
-
-    fetch(ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(payload)
-    }).then(function(resp){
-      return resp.json().catch(function(){ return null; }).then(function(data){
-        return { ok: resp.ok, data: data };
-      });
-    }).then(function(result){
-      if (result.ok && result.data && String(result.data.success) === 'true') {
-        formCard.style.display = 'none';
-        successBox.classList.add('show');
-        successBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      } else {
-        formError.classList.add('show');
-        formError.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }).catch(function(){
-      formError.classList.add('show');
-      formError.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }).finally(function(){
-      isSubmitting = false;
-      submitBtn.disabled = false;
-      submitBtnText.textContent = originalText;
-    });
-  });
-})();
-</script>
-<script>
-(function(){
-  var from=new URLSearchParams(location.search).get('from');
-  var dest=from==='brochure'?'../brochure/':'../presentacion/';
-  var returnToFichas=false;
-  if(from==='fichas-informativas'){
-    dest='../fichas-informativas/#contacto';
-    if(document.referrer){
-      var origin=new URL(document.referrer);
-      var fichas=new URL('../fichas-informativas/',location.href);
-      returnToFichas=origin.origin===fichas.origin &&
-        (origin.pathname===fichas.pathname || origin.pathname===fichas.pathname+'index.html') && history.length>1;
-      if(returnToFichas) dest=origin.href;
-    }
-  }
-  document.querySelectorAll('.kva-back-dynamic').forEach(function(a){
-    a.setAttribute('href',dest);
-    if(returnToFichas) a.addEventListener('click',function(event){
-      if(event.button!==0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-      event.preventDefault();
-      history.back();
-    });
-  });
-})();
-</script>
-
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/aliados-form.js" defer></script>
+<script src="../assets/js/navigation.js" defer></script>
 </body>
 </html>
