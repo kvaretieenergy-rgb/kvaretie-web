@@ -66,3 +66,19 @@
     }
   });
 })();
+
+/* HubSpot Chat (KVARETIE CRM 51934019) — carga única; se omite en /brochure/ (vista imprimible). */
+(function () {
+  if (/\/brochure\//.test(location.pathname)) return;
+  if (document.getElementById('hs-script-loader')) return;
+  var css = document.createElement('style');
+  css.textContent = '.wa-float{bottom:96px !important}@media (max-width:420px){.wa-float{bottom:90px !important}}';
+  document.head.appendChild(css);
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.id = 'hs-script-loader';
+  s.async = true;
+  s.defer = true;
+  s.src = 'https://js-na1.hs-scripts.com/51934019.js';
+  (document.body || document.head).appendChild(s);
+})();
