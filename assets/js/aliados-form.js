@@ -9,6 +9,12 @@
 
   var ENDPOINT = 'https://formsubmit.co/ajax/kvaretie.energy@gmail.com';
 
+  // Acknowledged by FormSubmit in this browser session; not a CRM or inbox receipt.
+  if (window.KvaContact && window.KvaContact.wasSubmitted()) {
+    formCard.style.display = 'none';
+    successBox.classList.add('show');
+  }
+
   function clearErrors(){
     var fields = form.querySelectorAll('.field.has-error');
     fields.forEach(function(f){ f.classList.remove('has-error'); });
@@ -68,6 +74,10 @@
       _captcha: 'false',
       _honey: form.elements['_honey'].value,
       _replyto: val('correo'),
+      'ORIGEN': 'red_aliados',
+      'INTERÉS': 'alianza',
+      'ESTADO': 'solicitud_enviada',
+      'RETORNO': window.KvaContact ? window.KvaContact.formReturn : location.href.split('#')[0] + '#formulario',
       'NOMBRE': val('nombre_completo'),
       'EMPRESA': val('empresa') || '—',
       'TIPO DE ALIADO': val('tipo_aliado'),
@@ -125,6 +135,10 @@
       });
     }).then(function(result){
       if (result.ok && result.data && String(result.data.success) === 'true') {
+        if (window.KvaContact) {
+          try { sessionStorage.setItem(window.KvaContact.submittedKey, 'true'); } catch (_) { /* Optional session persistence. */ }
+          window.KvaContact.refresh();
+        }
         formCard.style.display = 'none';
         successBox.classList.add('show');
         successBox.scrollIntoView({ behavior: 'smooth', block: 'start' });

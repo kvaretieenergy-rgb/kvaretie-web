@@ -103,3 +103,4 @@
 #formulario .btn{white-space:normal;}
 #formulario .field label.check-option,#formulario .field label.authorize{display:flex;}
 #formulario svg{fill:none;stroke:currentColor;stroke-width:2;}
+@media(max-width:699px){body.kva-form-focus .wa-float,body.kva-form-visible .wa-float{visibility:hidden;pointer-events:none;}}

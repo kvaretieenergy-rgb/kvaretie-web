@@ -71,9 +71,10 @@
 (function () {
   if (/\/brochure\//.test(location.pathname)) return;
   if (document.getElementById('hs-script-loader')) return;
-  var css = document.createElement('style');
-  css.textContent = '.wa-float{bottom:96px !important}@media (max-width:420px){.wa-float{bottom:90px !important}}';
-  document.head.appendChild(css);
+  // QA-20260922: the published bot routes Allies to electrical sales.
+  // Keep contextual WhatsApp as the sole launcher until the CRM flow is verified.
+  // The tracking script remains; do not open the unverified chat automatically.
+  window.hsConversationsSettings = Object.assign({}, window.hsConversationsSettings, { loadImmediately: false });
   var s = document.createElement('script');
   s.type = 'text/javascript';
   s.id = 'hs-script-loader';
