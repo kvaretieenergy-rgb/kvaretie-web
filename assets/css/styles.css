@@ -755,6 +755,8 @@ h2.section-title .accent{ color:var(--gold-600); }
 .benefit-item .bi-ic svg{ width:19px;height:19px; }
 .benefit-item h4{ color:var(--white); font-size:.98rem; margin-bottom:4px; }
 .benefit-item p{ color:rgba(255,255,255,.62); font-size:.86rem; }
+.benefit-group-title{color:var(--gold-400);font-size:1.15rem;margin:30px 0 16px;}
+.institutional-details{margin:24px 0;font-size:.85rem;color:var(--ink-soft);overflow-wrap:anywhere;}
 
 .disclaimer{ font-size:.78rem; color:var(--ink-faint); border-left:2px solid var(--gold-500); padding-left:14px; margin-top:26px; max-width:64ch; }
 .disclaimer.on-dark{ color:rgba(255,255,255,.5); }
