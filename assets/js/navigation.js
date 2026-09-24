@@ -70,7 +70,6 @@
 /* One contact launcher: HubSpot when available, contextual WhatsApp as fallback. */
 (function () {
   'use strict';
-  if (/\/brochure\//.test(location.pathname)) return;
   var launcher = document.querySelector('.wa-float');
   if (!launcher || document.getElementById('hs-script-loader')) return;
   var originalIcon = launcher.innerHTML, ready = false;
@@ -86,6 +85,7 @@
     '#kva-chat-host{height:min(560px,calc(100dvh - 76px));width:100%}' +
     '#hubspot-conversations-inline-parent,#hubspot-conversations-inline-iframe{width:100%!important;height:100%!important;min-width:0!important;border:0}' +
     'body.kva-chat-open .wa-float{display:none!important}' +
+    '@media print{#kva-chat,.wa-float{display:none!important}}' +
     '.wa-float[data-contact-channel="hubspot"]{background:var(--navy-900,#0b1735)}';
   document.head.appendChild(css);
   window.hsConversationsSettings = Object.assign({}, window.hsConversationsSettings, { loadImmediately: true, inlineEmbedSelector: '#kva-chat-host' });
