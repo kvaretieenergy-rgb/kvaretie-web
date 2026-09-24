@@ -1,0 +1,334 @@
+{
+  "batch": "2026-09-23-03",
+  "status": "verificada_para_publicacion",
+  "page": "index.html#trabajos-aliados",
+  "group": "Trabajos de los Aliados",
+  "organization": "Por especialidad visible; proyectos sin identificar, sin inferir que obras diferentes sean una misma obra.",
+  "base_commit": "a84beaa4e79ee1755e98d67a5282985e995e9cde",
+  "images": [
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_24 a.m. (3).png",
+      "source_sha256": "04e7cb01f02a8c07d4ffa37593f96ee5ec3d9ba9c17ad50b959a50fa810c539b",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "registros",
+      "specialty_label": "Cámaras y registros",
+      "project": null,
+      "caption": "Aliados · Cámaras y registros",
+      "alt": "Conductores identificados en cámara de paso",
+      "full": "assets/img/aliados-registro-conductores-full.webp",
+      "thumb": "assets/img/aliados-registro-conductores-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3489458,
+      "full_bytes": 2499690,
+      "thumbnail_bytes": 193002,
+      "full_sha256": "5b50d076f0a4b05c5d12dda210a7d1dc7c0a817fc167742c16911b9ec4b74f88",
+      "thumbnail_sha256": "c39783ccaf72e3f3d1bbb4c5a8865fe79b63b0fd0d9bf5501b7df5b7363148c7",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_27 a.m. (10).png",
+      "source_sha256": "88969dbfce9d5e09a3c7f4ed37e5872bfed81c4d677462644be52330d10b0070",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "registros",
+      "specialty_label": "Cámaras y registros",
+      "project": null,
+      "caption": "Aliados · Cámaras y registros",
+      "alt": "Empalmes de conductores en registro",
+      "full": "assets/img/aliados-registro-empalmes-full.webp",
+      "thumb": "assets/img/aliados-registro-empalmes-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3504517,
+      "full_bytes": 2511538,
+      "thumbnail_bytes": 191856,
+      "full_sha256": "3253bb64b8c523e303bda7e14df6a149b410afd091519ef8fddf0a537746fff5",
+      "thumbnail_sha256": "8ce9b255db355d212943a0fea102d1c01eb7dd5a03cbbd1e35e5495eaec48d28",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_25 a.m. (4).png",
+      "source_sha256": "ade4540611801de4d24ec00b78dd39bc5255b135918faf679bbcbe1e8ce21754",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "registros",
+      "specialty_label": "Cámaras y registros",
+      "project": null,
+      "caption": "Aliados · Cámaras y registros",
+      "alt": "Conexiones de distribución en cámara, vista superior",
+      "full": "assets/img/aliados-camara-derivaciones-vista-superior-full.webp",
+      "thumb": "assets/img/aliados-camara-derivaciones-vista-superior-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3322639,
+      "full_bytes": 2412420,
+      "thumbnail_bytes": 169512,
+      "full_sha256": "ef302549b3ec106d8b04a005e329309e6b243d3636663ff902dbb15efa9937f0",
+      "thumbnail_sha256": "b64459f267fc8144d48b28348a918f3ecba7ba753a934509f00c6571a2de994c",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_56 a.m. (7).png",
+      "source_sha256": "bd6d0bcb1566a1a64d9bbd92ff3597bf23db8901fb335166a4e2902ddfd3d6ca",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "registros",
+      "specialty_label": "Cámaras y registros",
+      "project": null,
+      "caption": "Aliados · Cámaras y registros",
+      "alt": "Cámara de distribución y canalización en zanja",
+      "full": "assets/img/aliados-camara-derivaciones-zanja-full.webp",
+      "thumb": "assets/img/aliados-camara-derivaciones-zanja-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3291616,
+      "full_bytes": 2396410,
+      "thumbnail_bytes": 164548,
+      "full_sha256": "e2dc6367df752e33f6c00be32ad7816811c9c1c501466536f0bfbc7956c6e259",
+      "thumbnail_sha256": "5c91f69941164fee88e4cf101e81359e21d10ef6755ea307a9e6d52b4616a2ba",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_48 a.m. (1).png",
+      "source_sha256": "f15f2f41d323f75154fa3076cab56760f56ff23ff6cc28c65d6e4ec438cf3ab7",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "registros",
+      "specialty_label": "Cámaras y registros",
+      "project": null,
+      "caption": "Aliados · Cámaras y registros",
+      "alt": "Detalle de conexiones de distribución en cámara",
+      "full": "assets/img/aliados-camara-derivaciones-detalle-full.webp",
+      "thumb": "assets/img/aliados-camara-derivaciones-detalle-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3348481,
+      "full_bytes": 2416410,
+      "thumbnail_bytes": 166222,
+      "full_sha256": "a9091aa027d397ea0d294705bbcba8dce0a81e1a8ad9f41a10e74e69d1a477af",
+      "thumbnail_sha256": "9349e37e3435befd9eff2c813a515464fa2997872ee3badbdf1849f4b1118075",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_50 a.m. (5).png",
+      "source_sha256": "1ab7b7e319a272ecf22ebbb5a5fd256fd71903c1738f9c443fd480753c2048ae",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "canalizacion",
+      "specialty_label": "Canalización y obra civil",
+      "project": null,
+      "caption": "Aliados · Canalización y obra civil",
+      "alt": "Ductos y curvas de canalización en excavación",
+      "full": "assets/img/aliados-canalizacion-curvas-full.webp",
+      "thumb": "assets/img/aliados-canalizacion-curvas-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3339344,
+      "full_bytes": 2433172,
+      "thumbnail_bytes": 168202,
+      "full_sha256": "1c43a6242eaeabd7efbb21ed1ce57b90be9493c89e49755d2d222c4cf3a1169d",
+      "thumbnail_sha256": "388aa657de971306b846dc7bd24c8a8f04b390813c50afc43085110312bffb6b",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_57 a.m. (8).png",
+      "source_sha256": "133940ffaed00475fd7212677d291230cbfd2685c02f3fa672ade6e722b3c699",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "canalizacion",
+      "specialty_label": "Canalización y obra civil",
+      "project": null,
+      "caption": "Aliados · Canalización y obra civil",
+      "alt": "Construcción de registro con entrada de ductos",
+      "full": "assets/img/aliados-registro-construccion-full.webp",
+      "thumb": "assets/img/aliados-registro-construccion-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3132512,
+      "full_bytes": 2175544,
+      "thumbnail_bytes": 145146,
+      "full_sha256": "5185a3876b45710180eb29d8374a5860046840d631be5790e15a970e11fbd07e",
+      "thumbnail_sha256": "07498f0ac1c39406d9251b76b4b7bf5e2bf56f6a8f5aebf332e58b51c33f50bb",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_49 a.m. (4).png",
+      "source_sha256": "e4d6ab411b5314e68517641a636a912b0fe2eb05ea197a8add8f242a04ba0e80",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "canalizacion",
+      "specialty_label": "Canalización y obra civil",
+      "project": null,
+      "caption": "Aliados · Canalización y obra civil",
+      "alt": "Registro con acabado de obra civil",
+      "full": "assets/img/aliados-registro-acabado-full.webp",
+      "thumb": "assets/img/aliados-registro-acabado-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3036073,
+      "full_bytes": 2063496,
+      "thumbnail_bytes": 101938,
+      "full_sha256": "c237008af7e6b2902b2c61111b77a16a75117926b6a4157565f0f0b7d44c2c01",
+      "thumbnail_sha256": "3b6a36f02736609cd5710729725ee2fb84ca5fafb6473fd7268048fa62421cf0",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_25 a.m. (6).png",
+      "source_sha256": "8b4221fcab910f322e1c080989bccde2d8cd1adc5cb42e5f85975c37ff3a3f59",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "caption": "Aliados · Tableros y medición",
+      "alt": "Medición en tablero eléctrico, vista 1",
+      "full": "assets/img/aliados-tablero-medicion-01-full.webp",
+      "thumb": "assets/img/aliados-tablero-medicion-01-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2540928,
+      "full_bytes": 1742992,
+      "thumbnail_bytes": 97788,
+      "full_sha256": "3089e2f3820acea28a3aa93405a2d4b0c499bf6f12e04c1c9589efdde7ab788f",
+      "thumbnail_sha256": "114733d9ccf34c72de645f2d2f732c764edcb95c4bf2e8b515f882eae53aacfb",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_26 a.m. (8).png",
+      "source_sha256": "aff75e386f977f7561420206243d383d3fc5b0ebed03d2359a8f2f686f3e3c61",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "caption": "Aliados · Tableros y medición",
+      "alt": "Medición en tablero eléctrico, vista 2",
+      "full": "assets/img/aliados-tablero-medicion-02-full.webp",
+      "thumb": "assets/img/aliados-tablero-medicion-02-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2545903,
+      "full_bytes": 1747014,
+      "thumbnail_bytes": 96914,
+      "full_sha256": "f7fd3e5d209dcd8eac3ed75035a2a5214a542d1f2278ddecae5440e07ed52842",
+      "thumbnail_sha256": "5edc37f732c87743574fc209ddc3cb13955f8491947b8edda5f7d8f2ab38b7e4",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_26 a.m. (9).png",
+      "source_sha256": "dec325c6dea9aefa8891b6537847498dd6e31fa9ca80a020b8648013c4a07876",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "caption": "Aliados · Tableros y medición",
+      "alt": "Gabinetes y canalización sobre muro de bloque",
+      "full": "assets/img/aliados-gabinetes-muro-bloque-full.webp",
+      "thumb": "assets/img/aliados-gabinetes-muro-bloque-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2426793,
+      "full_bytes": 1672574,
+      "thumbnail_bytes": 71390,
+      "full_sha256": "d050bebd3938e3800e1a8c827a4413414282735567694a04bf900f740c709191",
+      "thumbnail_sha256": "e73b97342d9ecb9140aa9de0e91d7e1ce50e3d5934536c7f51eec9e103a3b4a6",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_57 a.m. (10).png",
+      "source_sha256": "2c44de225c72a96471b24796972859a7fa95199df98551f57fd9a42534fd9bf7",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "caption": "Aliados · Tableros y medición",
+      "alt": "Tablero y circuitos sobre muro de ladrillo",
+      "full": "assets/img/aliados-tablero-muro-ladrillo-full.webp",
+      "thumb": "assets/img/aliados-tablero-muro-ladrillo-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2217774,
+      "full_bytes": 1651082,
+      "thumbnail_bytes": 71942,
+      "full_sha256": "ec6bfe601f15f0394c66552712e474470c3e8090a429abca674321250b3ab1c0",
+      "thumbnail_sha256": "9121198127d17eb2920390c61629dee3fc29f4968a08754c1a264c983967cfe2",
+      "lossless_pixels_verified": true
+    }
+  ]
+}

@@ -65,16 +65,19 @@
   }
 
   /* ---------- Galería: filtros ---------- */
-  var filterBtns = document.querySelectorAll("[data-gfilter]");
   var galleryItems = document.querySelectorAll("[data-gitem]");
-  filterBtns.forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      filterBtns.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
-      btn.setAttribute("aria-pressed", "true");
-      var cat = btn.getAttribute("data-gfilter");
-      galleryItems.forEach(function (item) {
-        var match = cat === "todos" || item.getAttribute("data-cat") === cat;
-        item.hidden = !match;
+  document.querySelectorAll("[data-gallery]").forEach(function (gallery) {
+    var filterBtns = gallery.querySelectorAll("[data-gfilter]");
+    var items = gallery.querySelectorAll("[data-gitem]");
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        filterBtns.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+        btn.setAttribute("aria-pressed", "true");
+        var cat = btn.getAttribute("data-gfilter");
+        items.forEach(function (item) {
+          var match = cat === "todos" || item.getAttribute("data-cat") === cat;
+          item.hidden = !match;
+        });
       });
     });
   });
@@ -87,12 +90,14 @@
     var visibleList = [];
     var currentIndex = 0;
 
-    function refreshVisible() {
-      visibleList = Array.prototype.filter.call(galleryItems, function (it) { return !it.hidden; });
+    function refreshVisible(item) {
+      var gallery = item.closest("[data-gallery]");
+      var items = gallery ? gallery.querySelectorAll("[data-gitem]") : galleryItems;
+      visibleList = Array.prototype.filter.call(items, function (it) { return !it.hidden; });
     }
 
     function openLightbox(item) {
-      refreshVisible();
+      refreshVisible(item);
       currentIndex = visibleList.indexOf(item);
       renderLightbox();
       lightbox.setAttribute("data-open", "true");

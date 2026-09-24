@@ -1,0 +1,225 @@
+{
+  "batch": "2026-09-23-02",
+  "status": "verificada_para_publicacion",
+  "page": "index.html#trabajos-aliados",
+  "group": "Trabajos de los Aliados",
+  "base_commit": "a84beaa4e79ee1755e98d67a5282985e995e9cde",
+  "images": [
+    {
+      "original": "00.png",
+      "source_sha256": "b9118ec58cd327bf9ea2c3280d9770172b69d4a22518fb2bd2c7e6497e165439",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Canalización y obra civil",
+      "alt": "Montaje de canalización en parqueadero, vista 1",
+      "full": "assets/img/aliados-canalizacion-parqueadero-01-full.webp",
+      "thumb": "assets/img/aliados-canalizacion-parqueadero-01-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2479187,
+      "full_bytes": 1764856,
+      "thumbnail_bytes": 100206,
+      "full_sha256": "84868bcaae386694e49c9c1c2a5a6ba80fdf287e83b08f5d89caf8c2e1a20095",
+      "thumbnail_sha256": "ca4faad6176bd73429e890b959df4c51681b00cf9e27363e59dd722e3183eda5",
+      "lossless_pixels_verified": true,
+      "specialty": "canalizacion",
+      "specialty_label": "Canalización y obra civil",
+      "project": null
+    },
+    {
+      "original": "9.png",
+      "source_sha256": "7af2a27a152477407fa20690cbacffa65075b3491aebc502334430e3aa45cb63",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Canalización y obra civil",
+      "alt": "Montaje de canalización en parqueadero, vista 2",
+      "full": "assets/img/aliados-canalizacion-parqueadero-02-full.webp",
+      "thumb": "assets/img/aliados-canalizacion-parqueadero-02-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2701512,
+      "full_bytes": 1920380,
+      "thumbnail_bytes": 114856,
+      "full_sha256": "c1b45529068333698ce9b3e622db884ed5a0159416dd8e9af570146d52854f62",
+      "thumbnail_sha256": "c881372205500d2027c7d8b7aba801d6004929fb17314c3f1a51252ff9852180",
+      "lossless_pixels_verified": true,
+      "specialty": "canalizacion",
+      "specialty_label": "Canalización y obra civil",
+      "project": null
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_56 a.m. (6).png",
+      "source_sha256": "64acd8f5105aacd5b1e6fab3e76d2ef1fd05221ccc3d8fd81b2e032bf730d845",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Cableado y conectividad",
+      "alt": "Trabajo de cableado en interior",
+      "full": "assets/img/aliados-cableado-interior-full.webp",
+      "thumb": "assets/img/aliados-cableado-interior-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2225190,
+      "full_bytes": 1482278,
+      "thumbnail_bytes": 67870,
+      "full_sha256": "b2bd06695e0b62a86a4da706000f6a8209af6987b5794438ea3815b7cbb8423e",
+      "thumbnail_sha256": "56051929f4a8b5572586afb1c01d88a2cb32a7dccff7764e0ebc7056fd5dfbed",
+      "lossless_pixels_verified": true,
+      "specialty": "cableado",
+      "specialty_label": "Cableado y conectividad",
+      "project": null
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 10_54_43 a.m.png",
+      "source_sha256": "451abf026bd6b97d8f95743974770544052afb417a2736b5daefb37d099ca0c5",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Trabajos en poste",
+      "alt": "Trabajo en poste",
+      "full": "assets/img/aliados-trabajo-poste-full.webp",
+      "thumb": "assets/img/aliados-trabajo-poste-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1964916,
+      "full_bytes": 1350500,
+      "thumbnail_bytes": 58362,
+      "full_sha256": "547d69f8e8c44bb5a907fffdd3ae31619c5f37633fafc336fef66512af921b58",
+      "thumbnail_sha256": "9c6f096bfa0701fdb15450365f668d8be3ed792b35b95dfb0f1c769cab299e6a",
+      "lossless_pixels_verified": true,
+      "specialty": "redes",
+      "specialty_label": "Trabajos en poste",
+      "project": null
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 10_48_17 a.m.png",
+      "source_sha256": "50e4b305228936fa7421573a97d9f67d8dc417d0f6932e4d498e6277647062ba",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Trabajos en poste",
+      "alt": "Trabajo en poste con luminaria",
+      "full": "assets/img/aliados-trabajo-poste-luminaria-full.webp",
+      "thumb": "assets/img/aliados-trabajo-poste-luminaria-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1677531,
+      "full_bytes": 1260256,
+      "thumbnail_bytes": 57296,
+      "full_sha256": "6efa79a3d42f355f5c36b9b2525bc8a564de5bbedf791e2d89cc445ef0ad5aec",
+      "thumbnail_sha256": "0cbd4f891fb4c77cdb4c903b8cebe6557db22a3c435a5ea4933d5951af80eccf",
+      "lossless_pixels_verified": true,
+      "specialty": "redes",
+      "specialty_label": "Trabajos en poste",
+      "project": null
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_41_28 a.m.png",
+      "source_sha256": "d9d7fcef1453e9f1cc1e6b274aee44eb6286538d6a1684ec2da2157d29be5905",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Cableado y conectividad",
+      "alt": "Preparación de conexiones de cableado",
+      "full": "assets/img/aliados-conexiones-cableado-full.webp",
+      "thumb": "assets/img/aliados-conexiones-cableado-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2924114,
+      "full_bytes": 1896094,
+      "thumbnail_bytes": 125028,
+      "full_sha256": "c1e877e3d405ac97858dcdcbeae40aa595ae234187b80e764fca4f9701189e03",
+      "thumbnail_sha256": "5c1633830b8bb33e947fbcdbf2d262d4059d45bc361514a947c48f07f1f00998",
+      "lossless_pixels_verified": true,
+      "specialty": "cableado",
+      "specialty_label": "Cableado y conectividad",
+      "project": null
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_41_42 a.m.png",
+      "source_sha256": "e7e44c108c1401a2494bdab86638907a01867cc1c48e25403022f3fa17686f5d",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Materiales y suministros",
+      "alt": "Materiales y accesorios de conexión",
+      "full": "assets/img/aliados-materiales-conexion-full.webp",
+      "thumb": "assets/img/aliados-materiales-conexion-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2247070,
+      "full_bytes": 1648326,
+      "thumbnail_bytes": 96134,
+      "full_sha256": "3cabd38110d713ff83e3545851c33563887ab8d831a8acb1bf4615deb7a598ed",
+      "thumbnail_sha256": "6d0fefdf58d6dd734bb0ae7cf1675af0c66837c221a12f6f303b4c5cadae80a5",
+      "lossless_pixels_verified": true,
+      "specialty": "suministros",
+      "specialty_label": "Materiales y suministros",
+      "project": null
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_41_59 a.m.png",
+      "source_sha256": "0c0a6b43be4cdf627c671255690b89652a7752bcb1cca565ce3a819a73e777eb",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "caption": "Aliados · Materiales y suministros",
+      "alt": "Organización de materiales de canalización",
+      "full": "assets/img/aliados-materiales-canalizacion-full.webp",
+      "thumb": "assets/img/aliados-materiales-canalizacion-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2551640,
+      "full_bytes": 1632364,
+      "thumbnail_bytes": 91616,
+      "full_sha256": "9e29badeeb5014cf77056cd754222f42e8be48274de368ba4a45e1c98b9c0afa",
+      "thumbnail_sha256": "f962df07045ea9d4de2901245d0bd6e9d22170ffa59c06aee73ea314cb12dfca",
+      "lossless_pixels_verified": true,
+      "specialty": "suministros",
+      "specialty_label": "Materiales y suministros",
+      "project": null
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "batch": "2026-09-23-01",
+  "status": "verificada_para_publicacion",
+  "page": "index.html#trabajo",
+  "base_commit": "a84beaa4e79ee1755e98d67a5282985e995e9cde",
+  "images": [
+    {
+      "original": "01_ascensor_logo_original.png",
+      "source_sha256": "d1350130eff72fde912a316a40234b8d85e77ff3ea0584760985e583d40419f5",
+      "category": "instalaciones",
+      "category_label": "Instalaciones internas",
+      "caption": "Ascensor e iluminación perimetral interior",
+      "full": "assets/img/interior-ascensor-iluminacion-full.webp",
+      "thumb": "assets/img/interior-ascensor-iluminacion-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 834985,
+      "full_bytes": 602478,
+      "thumbnail_bytes": 29318,
+      "full_sha256": "1cc0f6a68c938018eb88f54a87717f7e257fdb3130764372dcf9415541e34d87",
+      "thumbnail_sha256": "9bf3044022b39cda38180c18727f3033a90f3cfe15363e05181564855fabea85",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "1.png",
+      "source_sha256": "944f5566150689e1d90b888da61a8a9a51a1b847d5f22d0cff4b61a12bdcb3d8",
+      "category": "instalaciones",
+      "category_label": "Instalaciones internas",
+      "caption": "Iluminación y vitrinas en local comercial",
+      "full": "assets/img/local-comercial-vitrinas-vista-frontal-full.webp",
+      "thumb": "assets/img/local-comercial-vitrinas-vista-frontal-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2110947,
+      "full_bytes": 1523892,
+      "thumbnail_bytes": 54906,
+      "full_sha256": "1054c229403e9a96c7bf670c3d7645d9d671f4eda98c47ae20a182c6203d20d7",
+      "thumbnail_sha256": "21bd38288052bdfb8cd3fd688c92ca24f2e1d865210b7eee3f741a97109f8118",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_56 a.m. (5).png",
+      "source_sha256": "ed09505f90ab72b0a1e288c296160830cbcc45f5366ed5f1b4640e456eac275e",
+      "category": "instalaciones",
+      "category_label": "Instalaciones internas",
+      "caption": "Iluminación de vitrinas y área comercial",
+      "full": "assets/img/local-comercial-vitrinas-vista-lateral-full.webp",
+      "thumb": "assets/img/local-comercial-vitrinas-vista-lateral-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2131228,
+      "full_bytes": 1528466,
+      "thumbnail_bytes": 53488,
+      "full_sha256": "7beade2b422add974232c8f5c94fd8f15d390b496280b60d801d51ff55af011c",
+      "thumbnail_sha256": "0e861e3011a287329614d07ab17609256289415a16c777a693648b62de7e29b4",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "2 - copia.png",
+      "source_sha256": "82b93ad47c00a5d5ad5b9e34f9464328c6731b4cc04ab053de8665d30c9a4b36",
+      "category": "iluminacion",
+      "category_label": "Iluminación",
+      "caption": "Iluminación lineal y perimetral en interior",
+      "full": "assets/img/iluminacion-lineal-perimetral-interior-full.webp",
+      "thumb": "assets/img/iluminacion-lineal-perimetral-interior-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1954174,
+      "full_bytes": 1405250,
+      "thumbnail_bytes": 44512,
+      "full_sha256": "c339397edbf84379a07181e59e8aecdd0059d2eaadd7da01dc7bcfc302d912c0",
+      "thumbnail_sha256": "3ed20e1106d2e3c3e58064332f721091cb552fd73fed99b79529577af6344817",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "4.png",
+      "source_sha256": "50a1940afab06ec4ad70fc20969c4beeeccd1fde209896ed2ad630c350e58f14",
+      "category": "iluminacion",
+      "category_label": "Iluminación",
+      "caption": "Luminarias lineales en área interior",
+      "full": "assets/img/iluminacion-luminarias-lineales-interior-full.webp",
+      "thumb": "assets/img/iluminacion-luminarias-lineales-interior-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1481559,
+      "full_bytes": 1115514,
+      "thumbnail_bytes": 18582,
+      "full_sha256": "d443fb1192037db803a660079d9b99291a1f2b84765fbf05ab9b100c0ce9c1c8",
+      "thumbnail_sha256": "b3016bcd4abc31c0a0a09a334dd0407da4c4547c2a8649dfeed64f5802df6dc4",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_11_36 a.m. (3).png",
+      "source_sha256": "721eebd43dd8355ebdd2cc98050be4f6ed0c9f9da351e3aa74a0432cf30e4816",
+      "category": "iluminacion",
+      "category_label": "Iluminación",
+      "caption": "Montaje de iluminación en local comercial",
+      "full": "assets/img/iluminacion-montaje-local-comercial-full.webp",
+      "thumb": "assets/img/iluminacion-montaje-local-comercial-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2174214,
+      "full_bytes": 1514224,
+      "thumbnail_bytes": 58210,
+      "full_sha256": "a1952a50100b7625dd27df583052b856a89bd1368a7b6604e8e7e14c67f61b47",
+      "thumbnail_sha256": "6d912d951a9c7ecbfdda19aab4a11367ae095c73e76aecf5865537c34babe9cf",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "5.png",
+      "source_sha256": "438453131d56139776858b23193a5678e103e477baaebdc5106f0dd425fc0117",
+      "category": "solar",
+      "category_label": "Energía solar",
+      "caption": "Sistema fotovoltaico en cubierta de teja",
+      "full": "assets/img/solar-cubierta-teja-vista-aerea-full.webp",
+      "thumb": "assets/img/solar-cubierta-teja-vista-aerea-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3720115,
+      "full_bytes": 2777236,
+      "thumbnail_bytes": 205774,
+      "full_sha256": "e41fd0c7cb68318596f96bc5fc6c5160a04beecb559a1c711552f888c19e227f",
+      "thumbnail_sha256": "f3ad605450ba24798ba1fc837da14cbe2a7fde804b6bf6773e27da17ab17d50a",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "6.png",
+      "source_sha256": "aa59904758df19f4cda76140e9cf078bc6b5a61e8295be196e828a8a3ce4e16e",
+      "category": "solar",
+      "category_label": "Energía solar",
+      "caption": "Paneles fotovoltaicos en cubierta metálica",
+      "full": "assets/img/solar-cubierta-metalica-vista-aerea-full.webp",
+      "thumb": "assets/img/solar-cubierta-metalica-vista-aerea-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3027553,
+      "full_bytes": 2281680,
+      "thumbnail_bytes": 154160,
+      "full_sha256": "e74c0800346b8c45404ebfa717eb20d1cf8aee9beca6857f75a63b8e2f31178c",
+      "thumbnail_sha256": "b87ab7d2248a9f9e940eb73a337d4ef3bbaa6f29b7b8cd5d237a1f1169af6242",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_57 a.m. (9).png",
+      "source_sha256": "0743054ff94bc6b05835912b774b2e46389edae0143ad2b9744bd7edad026c29",
+      "category": "solar",
+      "category_label": "Energía solar",
+      "caption": "Sistema fotovoltaico sobre cubierta residencial",
+      "full": "assets/img/solar-cubierta-residencial-vista-aerea-full.webp",
+      "thumb": "assets/img/solar-cubierta-residencial-vista-aerea-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3222260,
+      "full_bytes": 2172526,
+      "thumbnail_bytes": 139472,
+      "full_sha256": "90fd3d256daf0954716cd47e2301daffa33fa3b9a9a78178d94575101f40b6bb",
+      "thumbnail_sha256": "1a2f63e025f8c13e82cc14289eb334b5c2d39efdeb60ec4f4b0084d0b71f09b0",
+      "lossless_pixels_verified": true
+    }
+  ]
+}

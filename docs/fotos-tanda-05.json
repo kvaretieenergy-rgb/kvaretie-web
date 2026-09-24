@@ -1,0 +1,137 @@
+{
+  "batch": "2026-09-23-05",
+  "status": "verificada_para_publicacion",
+  "page": "index.html#trabajos-aliados",
+  "images": [
+    {
+      "original": "02_tablero_medidores_logo_original.png",
+      "source_sha256": "879892cd5e67e4aa8a092ffe323a45b2b372f53a46fe8b9130af874f309bc7e3",
+      "category": "aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "alt": "Tablero de medidores con logo original",
+      "caption": "Aliados · Tableros y medición",
+      "full": "assets/img/aliados-tablero-medidores-original-full.webp",
+      "thumb": "assets/img/aliados-tablero-medidores-original-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1626898,
+      "full_bytes": 1229108,
+      "thumbnail_bytes": 78458,
+      "full_sha256": "9fea66c22234f846acb0c2063130e129ca2a33c9ee5e1b178e64677948be20d0",
+      "thumbnail_sha256": "5e5fad1bfe2880e6fc0638c5bba78780728bda63334ca3ab8d37a47305a90ab0",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_54 a.m. (9).png",
+      "source_sha256": "bf178a5825d1d0d51e1cf70c9a998a3823e5d22887db259a6d694c22589e5eb4",
+      "category": "aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "alt": "Gabinete de medición exterior",
+      "caption": "Aliados · Tableros y medición",
+      "full": "assets/img/aliados-gabinete-medicion-exterior-full.webp",
+      "thumb": "assets/img/aliados-gabinete-medicion-exterior-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2540387,
+      "full_bytes": 1794092,
+      "thumbnail_bytes": 93862,
+      "full_sha256": "522e63d7e7412282f082f077160de5c80594fbfd6dd1287c3e6a703380806c70",
+      "thumbnail_sha256": "471e65fcaac64848d5a341e281af09b7738d9d80462eeb14004213449bae9ad0",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_40_39 a.m.png",
+      "source_sha256": "635a5f48d43e4591561aacf4b1576d7fd69f79a5fba40b013f779539bff0a94a",
+      "category": "aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "alt": "Acometida y medición en muro exterior",
+      "caption": "Aliados · Tableros y medición",
+      "full": "assets/img/aliados-acometida-medicion-rural-full.webp",
+      "thumb": "assets/img/aliados-acometida-medicion-rural-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3264473,
+      "full_bytes": 2258700,
+      "thumbnail_bytes": 143062,
+      "full_sha256": "776793dcec32cc2511b4e4214a4b03a6c68a39e100430c79dd14db30cd2d3f6a",
+      "thumbnail_sha256": "0ef96075771cb7212007e71d60fa90b17e1d69307d0096917ccae710efcc7c07",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_40_54 a.m.png",
+      "source_sha256": "970e65b33e844821c0d2fdc39cd1dc539a3b51805ff43710c2128c4d8b075f16",
+      "category": "aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "alt": "Gabinete de medidores abierto",
+      "caption": "Aliados · Tableros y medición",
+      "full": "assets/img/aliados-gabinete-medidores-abierto-full.webp",
+      "thumb": "assets/img/aliados-gabinete-medidores-abierto-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 3037498,
+      "full_bytes": 2029876,
+      "thumbnail_bytes": 120846,
+      "full_sha256": "fb24f1fc1fe8695762d10b6821e245647b05b5c9ca49b1dc4af877d02a223293",
+      "thumbnail_sha256": "a79b4a12e1ba1e8b78f3f71c530d4c02cd08081febba626a7d727284a8c3c5a1",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_41_12 a.m.png",
+      "source_sha256": "2b15997480277125f2f506ee5d21e2d93e7d653d93b1c70475f665803f3656e4",
+      "category": "aliados",
+      "specialty": "tableros",
+      "specialty_label": "Tableros y medición",
+      "project": null,
+      "alt": "Distribución interior de banco de medidores",
+      "caption": "Aliados · Tableros y medición",
+      "full": "assets/img/aliados-banco-medidores-interior-full.webp",
+      "thumb": "assets/img/aliados-banco-medidores-interior-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2407933,
+      "full_bytes": 1730148,
+      "thumbnail_bytes": 80484,
+      "full_sha256": "b15b68a7697b6ea241d6742edfabb7bce7ed3e0113e064ca0caea07715ae285b",
+      "thumbnail_sha256": "1d97598b58386a5558a29ffcf5f3249d94b33520b6cf7661bc7f42e0b8dcc6d2",
+      "lossless_pixels_verified": true
+    }
+  ]
+}

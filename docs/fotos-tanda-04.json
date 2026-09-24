@@ -1,0 +1,307 @@
+{
+  "batch": "2026-09-23-04",
+  "status": "verificada_para_publicacion",
+  "page": "index.html#trabajos-aliados",
+  "group": "Trabajos de los Aliados",
+  "organization": "Por especialidad visible; proyectos sin identificar, sin inferir que obras diferentes sean una misma obra.",
+  "base_commit": "a84beaa4e79ee1755e98d67a5282985e995e9cde",
+  "images": [
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_23 a.m. (1).png",
+      "source_sha256": "b518f529cd9101707cec94a34d922363bcee26110dd45b0703c4434e18a0f734",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Trabajo en transformador sobre poste, vista 1",
+      "full": "assets/img/aliados-transformador-poste-01-full.webp",
+      "thumb": "assets/img/aliados-transformador-poste-01-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1925603,
+      "full_bytes": 1357738,
+      "thumbnail_bytes": 61216,
+      "full_sha256": "5ff9e68e8690c440a2952b8b20a586eb615c4d465144c7e1243feac33337af90",
+      "thumbnail_sha256": "1c74cc511a783de8023781f39dd574de1e1bfe9c9f21426adc74dbab08908a66",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_53 a.m. (8).png",
+      "source_sha256": "bd51883996d9a62dd1104618642aa13e1db50c6508b5e55ea316523e5c0d71bf",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Conexiones de transformador sobre poste",
+      "full": "assets/img/aliados-transformador-conexiones-full.webp",
+      "thumb": "assets/img/aliados-transformador-conexiones-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2337371,
+      "full_bytes": 1617666,
+      "thumbnail_bytes": 90150,
+      "full_sha256": "2088f0e5686293684f924d2b1ff65256e3ec1ab873a79042404dc1d4c5c8941b",
+      "thumbnail_sha256": "fb994d46e7fefa9b2f980e8ba6826b6ea288eafa1c1a140c5744f38773b165de",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_24 a.m. (2).png",
+      "source_sha256": "585500e2ec4ff1fbb06f77372f1ad88fc94308e47b00ff60c351d24301afdcb1",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Trabajo en transformador sobre poste, vista 2",
+      "full": "assets/img/aliados-transformador-poste-02-full.webp",
+      "thumb": "assets/img/aliados-transformador-poste-02-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1918148,
+      "full_bytes": 1436528,
+      "thumbnail_bytes": 73616,
+      "full_sha256": "3ee10afd593e8d328f0c37f228513de34764e6838b913c90b86188871e8c5c7f",
+      "thumbnail_sha256": "a05b8c8d1212852662b314ecfa56a32ce54ba356a0fad55bb1d3bec6b05e0123",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_26 a.m. (7).png",
+      "source_sha256": "3ffa44254dadb44b8c229b7115610703b33deb5c3069150162b28998ebb6a0b4",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Poste y transformador en entorno rural",
+      "full": "assets/img/aliados-transformador-entorno-rural-full.webp",
+      "thumb": "assets/img/aliados-transformador-entorno-rural-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2173249,
+      "full_bytes": 1654098,
+      "thumbnail_bytes": 88476,
+      "full_sha256": "c4aabb16f4dcced2511295f8e6e931a8de64ef80cbf6bf1ee3e359dbf2ac0c95",
+      "thumbnail_sha256": "8a1d57993ae5a7692d43ef98c7520171aba55a100e282d702cd36cc0c18f44b7",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_54 a.m. (10).png",
+      "source_sha256": "c0f81f27e154cb507b6b90012e9f802b1c92270a5c8f14792a960755db80bdf2",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Trabajo en transformador sobre poste, vista 3",
+      "full": "assets/img/aliados-transformador-poste-03-full.webp",
+      "thumb": "assets/img/aliados-transformador-poste-03-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1844833,
+      "full_bytes": 1350910,
+      "thumbnail_bytes": 55088,
+      "full_sha256": "b646312470e7aa364cfc2d551600d544ee4434b9092757d3a241f37f92af38e4",
+      "thumbnail_sha256": "fbee849affd95dd96c7716f989f3b4f0e236d1b54d1ab4cc80ca872e3998746b",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_26_25 a.m. (5).png",
+      "source_sha256": "443a11f1e44a0d90a46d30b428aeaf698b566e3466841fa87e08aa4d88369f32",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Poste y transformador junto a construcción",
+      "full": "assets/img/aliados-transformador-entorno-construccion-full.webp",
+      "thumb": "assets/img/aliados-transformador-entorno-construccion-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2562406,
+      "full_bytes": 1894218,
+      "thumbnail_bytes": 121222,
+      "full_sha256": "0194ccc9991762a1ede4f676bfc859e8ceb87e23ca073fa1259908a38130ea07",
+      "thumbnail_sha256": "e28c3d7d68eb9e43bf424cc1af43b625dee36b9a76a1424170abc78697f9a65e",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_55 a.m. (3).png",
+      "source_sha256": "303f6f926569190afb117d806f28b82b93dc0b08e80fe0b65ac7d9fb2cfcf927",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Trabajo en altura sobre transformador, vista 1",
+      "full": "assets/img/aliados-transformador-altura-01-full.webp",
+      "thumb": "assets/img/aliados-transformador-altura-01-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1844941,
+      "full_bytes": 1341802,
+      "thumbnail_bytes": 51582,
+      "full_sha256": "b31af5f03c0d403b38145b2e1e0b5a59b893cd44657758fc46fb336ca98104d7",
+      "thumbnail_sha256": "9661ebd2dbac599de0f109e242b6b8c69fe2d3ef45236a8728b32912119853ee",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 01_38_55 a.m. (4).png",
+      "source_sha256": "63b9d46c3ffb368249cba93c2184f273f899fd95f9ac50e0741750a5cc8ee801",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Trabajo en altura sobre transformador, vista 2",
+      "full": "assets/img/aliados-transformador-altura-02-full.webp",
+      "thumb": "assets/img/aliados-transformador-altura-02-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1936759,
+      "full_bytes": 1430494,
+      "thumbnail_bytes": 69932,
+      "full_sha256": "690ce42c1fb41f14090a29071a644c706b294f3d3d7df976733573d43d161bc3",
+      "thumbnail_sha256": "a651317abe3f68c238b7d26e4dc8ce1f013279f2418bee858178dee385682c0c",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_49 a.m. (3).png",
+      "source_sha256": "d03f628c903d4d051d37aa033b062a2e14e9e06ebb71325dde7eac62b499f63f",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Montaje y conexiones en transformador",
+      "full": "assets/img/aliados-transformador-montaje-full.webp",
+      "thumb": "assets/img/aliados-transformador-montaje-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 1977008,
+      "full_bytes": 1486416,
+      "thumbnail_bytes": 61420,
+      "full_sha256": "ccb41c070d9285aae5fb9b30ee804cfc8a5336be32a9ba28da9c95ee0ca5189c",
+      "thumbnail_sha256": "8705ef976d6eabe1caa0d37a630cea0634b692ecbd1ddc0f1ee35e15fe401906",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_07_51 a.m. (7).png",
+      "source_sha256": "4792ba45d8c3e7b9cb52eb5b17d41bb0b8cc656c200b83e22b12692f91738c70",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Trabajo en transformador y estructura de soporte",
+      "full": "assets/img/aliados-transformador-estructura-full.webp",
+      "thumb": "assets/img/aliados-transformador-estructura-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2009022,
+      "full_bytes": 1481224,
+      "thumbnail_bytes": 77906,
+      "full_sha256": "294ccafb45e3811ee877fbbf52bd2f329e1ec2665498c17db9524c49554434a1",
+      "thumbnail_sha256": "3a537ac991fe41478498864ba7d13db5d3e4da9b03cd6c56b56ddcadb3c35ebe",
+      "lossless_pixels_verified": true
+    },
+    {
+      "original": "ChatGPT Image 23 sept 2026, 11_40_15 a.m.png",
+      "source_sha256": "70cdb730c5bf766bdabb27e5fe678dcc4cd8c88d31b8ef1e6c476330a3bc6573",
+      "category": "aliados",
+      "category_label": "Trabajos de los Aliados",
+      "specialty": "transformadores",
+      "specialty_label": "Transformadores y redes",
+      "project": null,
+      "caption": "Aliados · Transformadores y redes",
+      "alt": "Equipo de trabajo en altura sobre poste",
+      "full": "assets/img/aliados-transformador-equipo-altura-full.webp",
+      "thumb": "assets/img/aliados-transformador-equipo-altura-thumb.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "thumbnail_dimensions": [
+        640,
+        640
+      ],
+      "source_bytes": 2063718,
+      "full_bytes": 1518710,
+      "thumbnail_bytes": 81602,
+      "full_sha256": "897c93fcdb8a06773d8f36c14c9b6cd8be565fef444a46590b378d64439a6c49",
+      "thumbnail_sha256": "7f3bb43f395583708163b52cb34e2098f8f46ea4b6ddb20eda43a9185ceb99f7",
+      "lossless_pixels_verified": true
+    }
+  ]
+}

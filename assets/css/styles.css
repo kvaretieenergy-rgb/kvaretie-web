@@ -489,6 +489,12 @@ h2.section-title .accent{ color:var(--gold-600); }
 .gitem:hover .gi-plus{ opacity:1; transform:scale(1); }
 .gitem .gi-plus svg{ width:14px;height:14px; }
 
+/* New photo batches keep the complete frame and place the category below it. */
+.gitem-complete{ aspect-ratio:auto; }
+.gitem-complete img{ height:auto; aspect-ratio:1; object-fit:contain; }
+.gitem-complete:hover img{ transform:none; }
+.gitem-complete .gi-tag{ position:static; display:block; }
+
 /* Lightbox */
 .lightbox{
   position:fixed; inset:0; z-index:100;
