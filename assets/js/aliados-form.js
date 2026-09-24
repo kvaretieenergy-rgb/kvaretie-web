@@ -8,12 +8,48 @@
   var isSubmitting = false;
 
   var ENDPOINT = 'https://formsubmit.co/ajax/kvaretie.energy@gmail.com';
+  var HUBSPOT_ENDPOINT = 'https://api.hsforms.com/submissions/v3/integration/submit/51934019/5d5cd5d8-e399-413a-9bea-de7e3aea6b57';
 
-  // Acknowledged by FormSubmit in this browser session; not a CRM or inbox receipt.
+  // Acknowledged by at least one channel; not confirmation of inbox delivery.
   if (window.KvaContact && window.KvaContact.wasSubmitted()) {
     formCard.style.display = 'none';
     successBox.classList.add('show');
   }
+
+  function focusForm(){
+    if (formCard.style.display !== 'none') {
+      form.elements['nombre_completo'].focus({ preventScroll: true });
+    }
+  }
+
+  function revealForm(){
+    if (location.hash !== '#formulario') return;
+    var chat = document.getElementById('kva-chat');
+    if (chat && chat.open) {
+      // navigation.js restores focus to the launcher when the dialog closes.
+      chat.addEventListener('close', function(){
+        window.setTimeout(focusForm, 0);
+      }, { once: true });
+      chat.close();
+    } else {
+      focusForm();
+    }
+  }
+
+  window.addEventListener('pageshow', revealForm);
+  window.addEventListener('hashchange', revealForm);
+  window.addEventListener('popstate', revealForm);
+  document.addEventListener('click', function(event){
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    var link = event.target.closest('a[href]');
+    if (!link || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
+    var destination = new URL(link.href, location.href);
+    if (destination.origin === location.origin && destination.pathname === location.pathname &&
+        destination.search === location.search && destination.hash === '#formulario') {
+      // Same-page navigation uses replaceState, which does not emit hashchange.
+      window.setTimeout(revealForm, 0);
+    }
+  });
 
   function clearErrors(){
     var fields = form.querySelectorAll('.field.has-error');
@@ -97,6 +133,64 @@
     };
   }
 
+  function buildHubSpotPayload(payload){
+    var fields = [
+      { name: 'email', value: payload.CORREO },
+      { name: 'firstname', value: payload.NOMBRE },
+      { name: 'phone', value: payload.WHATSAPP },
+      { name: 'city', value: payload.CIUDAD }
+    ];
+    var digits = payload.WHATSAPP.replace(/[^0-9]/g, '');
+    if (digits.length === 10) digits = '57' + digits;
+    if (/^57[0-9]{10}$/.test(digits)) {
+      fields.push({ name: 'hs_whatsapp_phone_number', value: '+' + digits });
+    }
+    var website = form.elements['web_social'].value.trim();
+    if (website) fields.push({ name: 'website', value: website });
+    var message = ['[Red de Aliados]', 'Origen: red_aliados'];
+    ['EMPRESA', 'TIPO DE ALIADO', 'ESPECIALIDAD', 'COBERTURA', 'TIPO DE COLABORACIÓN',
+      'PRESENTACIÓN', 'MATRÍCULA / ACREDITACIÓN', 'PORTAFOLIO', 'MENSAJE'].forEach(function(name){
+      message.push(name + ': ' + payload[name]);
+    });
+    fields.push({ name: 'message', value: message.join('\n') });
+    var context = { pageUri: location.href, pageName: document.title };
+    try {
+      var cookie = document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/);
+      if (cookie) context.hutk = decodeURIComponent(cookie[1]);
+    } catch (_) { /* Submission does not require cookies. */ }
+    return {
+      fields: fields,
+      context: context,
+      legalConsentOptions: {
+        consent: {
+          consentToProcess: form.elements['autorizacion'].checked,
+          text: form.elements['autorizacion'].closest('label').querySelector('span').textContent.trim()
+        }
+      }
+    };
+  }
+
+  function sendToChannel(endpoint, payload, isHubSpot){
+    // Each channel settles independently, including network errors and timeouts.
+    var controller = new AbortController();
+    var timeout = window.setTimeout(function(){ controller.abort(); }, 15000);
+    return fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: controller.signal
+    }).then(function(resp){
+      if (isHubSpot) return resp.ok;
+      return resp.json().catch(function(){ return null; }).then(function(data){
+        return resp.ok && data && String(data.success) === 'true';
+      });
+    }).catch(function(){
+      return false;
+    }).finally(function(){
+      window.clearTimeout(timeout);
+    });
+  }
+
   form.addEventListener('submit', function(e){
     e.preventDefault();
     if (isSubmitting) return;
@@ -125,16 +219,13 @@
 
     var payload = buildPayload();
 
-    fetch(ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(payload)
-    }).then(function(resp){
-      return resp.json().catch(function(){ return null; }).then(function(data){
-        return { ok: resp.ok, data: data };
-      });
-    }).then(function(result){
-      if (result.ok && result.data && String(result.data.success) === 'true') {
+    Promise.all([
+      Promise.resolve().then(function(){
+        return sendToChannel(HUBSPOT_ENDPOINT, buildHubSpotPayload(payload), true);
+      }).catch(function(){ return false; }),
+      sendToChannel(ENDPOINT, payload, false)
+    ]).then(function(results){
+      if (results.some(function(accepted){ return accepted; })) {
         if (window.KvaContact) {
           try { sessionStorage.setItem(window.KvaContact.submittedKey, 'true'); } catch (_) { /* Optional session persistence. */ }
           window.KvaContact.refresh();
