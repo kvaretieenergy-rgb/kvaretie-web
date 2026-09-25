@@ -556,6 +556,99 @@ section,#contacto{scroll-margin-top:80px;}
 }
 </style>
 <style>img{height:auto}</style>
+<style id="kva-brochure-print" media="print">
+/* A4 only: keep the interactive layout unchanged on screen. */
+@page{size:A4 portrait;margin:12mm;}
+html,body,.page-shell{width:auto;max-width:none;min-height:0;height:auto;overflow:visible!important;}
+body{background:#fff;font-size:10pt;}
+*,*::before,*::after{-webkit-print-color-adjust:exact;print-color-adjust:exact;animation:none!important;transition:none!important;}
+.page-shell{box-shadow:none;}
+.container{max-width:none;padding:0 5mm;}
+section{padding:7mm 0;}
+.reveal{opacity:1!important;transform:none!important;}
+.site-header,.offcanvas,.scrim,.kva-return,.kva-back-btn,[data-kva-back],
+.btn,.btn-row,button,.zoom-badge,.lightbox,#kva-chat,.wa-float,
+#hubspot-messages-iframe-container,
+iframe[title*="chat" i]{display:none!important;}
+h1,h2,h3,h4,.eyebrow,.section-head,.service-group-label{break-after:avoid;page-break-after:avoid;}
+p,li{orphans:3;widows:3;}
+.section-head,.service-card,figure,.about-card,.timeline-item,.web-cta,#contacto{break-inside:avoid;page-break-inside:avoid;}
+.section-title{font-size:20pt;}
+.section-sub{font-size:10pt;line-height:1.5;}
+.section-head{margin-bottom:5mm;}
+.eyebrow{font-size:8.5pt;letter-spacing:1px;}
+
+/* Cover and introduction share a sheet; later sections start cleanly. */
+.hero{padding:10mm 0;break-inside:avoid;break-after:avoid;}
+.hero-logo{width:24mm;height:24mm;margin-bottom:4mm;padding:2mm;}
+.hero h1{font-size:27pt;}
+.hero .tagline{font-size:10pt;margin-top:3mm;}
+.hero-badges{margin-top:5mm;gap:2mm;}
+.hero-badge{font-size:8pt;padding:2mm 3mm;}
+.hero p.desc{font-size:10pt;line-height:1.5;margin-top:5mm;max-width:155mm;}
+#nosotros{break-inside:avoid;}
+.about-grid{display:block;}
+.about-grid .section-title{font-size:18pt;}
+.pills{margin-top:4mm;gap:2mm;}
+.pill{font-size:8pt;padding:1.5mm 2mm;}
+.trust-row{margin-top:4mm;gap:2mm;}
+.trust-item{font-size:8.5pt;}
+.about-card{margin-top:5mm;padding:4mm;gap:3mm;grid-template-columns:repeat(3,minmax(0,1fr));}
+.about-stat{padding:2mm;}
+.about-stat b{font-size:10pt;}
+.about-stat span{font-size:8pt;}
+
+/* Block flow gives the print engine reliable break points between cards. */
+#servicios{break-before:page;}
+.services-grid{display:block;}
+.services-grid .service-card{display:inline-grid;width:100%;vertical-align:top;grid-template-columns:minmax(0,1fr) minmax(0,1.7fr);gap:5mm;padding:4mm;margin:0 0 4mm;box-shadow:none;}
+.services-grid .service-card.ally-card{padding-top:5mm;}
+.service-top{gap:3mm;}
+.service-icon{width:9mm;height:9mm;flex-shrink:0;}
+.service-top h3{font-size:12pt;line-height:1.3;}
+.service-num{font-size:8pt;}
+.services-grid .service-body{margin-top:0;}
+.service-body p{font-size:9pt;line-height:1.45;}
+.service-list{margin-top:2mm;gap:1mm;}
+.service-list li{font-size:8.5pt;line-height:1.4;}
+.service-group-label{font-size:8.5pt;margin:4mm 0 3mm;padding-top:3mm;}
+.service-group-label:nth-of-type(3),.service-group-label:nth-of-type(5),.service-group-label:nth-of-type(7){break-before:page;}
+.ally-badge{font-size:8pt;}
+#flyers{break-inside:avoid;}
+.web-cta{padding:6mm;box-shadow:none;}
+.web-cta h2{font-size:17pt;}
+.web-cta p{font-size:10pt;line-height:1.5;max-width:none;}
+
+/* Each photo and its caption are one printable unit; group headings stay with them. */
+#trabajo{break-before:page;}
+.gallery-grid{display:block;}
+.gallery-grid > h3{display:block;margin:4mm 0 3mm!important;}
+.gallery-grid > h3:not(:first-child){break-before:page;padding-top:4mm;}
+.gallery-grid > figure{display:inline-block;vertical-align:top;width:calc(50% - 3mm);margin:0 4mm 4mm 0!important;}
+.gallery-grid > figure:nth-of-type(even){margin-right:0!important;}
+.gallery-item{width:100%;height:auto;aspect-ratio:1;}
+.gallery-item img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;transform:none!important;}
+.gallery-grid figcaption{font-size:8pt!important;margin-top:2mm!important;}
+
+/* Keep the final process, closing panels and written contact details intact. */
+#proceso{break-inside:avoid;padding:5mm 0;}
+.timeline{max-width:none;padding-left:9mm;}
+.timeline-item{padding-bottom:4mm;}
+.timeline-item h4{font-size:10pt;padding-left:2mm;}
+.timeline-item p{font-size:9pt;line-height:1.4;padding-left:2mm;}
+#web{break-before:page;}
+#web,#aliados{break-inside:avoid;break-after:avoid;padding:5mm 0;}
+#contacto{padding:7mm 0;}
+.closing h2{font-size:18pt;}
+.closing p{font-size:10pt;line-height:1.5;max-width:none;}
+.quick-access{margin-top:5mm;padding-top:4mm;}
+.quick-access .connect-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:2mm;margin-top:3mm;}
+.connect-btn{padding:2mm;font-size:8pt;}
+.connect-btn .ic{width:7mm;height:7mm;}
+.footer-bottom-simple{margin-top:5mm;padding-top:4mm;gap:3mm;}
+.footer-brand img{width:11mm;height:11mm;}
+.footer-copyright-row{font-size:8pt;gap:2mm;}
+</style>
 </head>
 <body>
 <div class="page-shell">
