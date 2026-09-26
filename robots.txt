@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://kvaretieenergy-rgb.github.io/kvaretie-web/sitemap.xml
+Sitemap: https://kvaretie.com/sitemap.xml
